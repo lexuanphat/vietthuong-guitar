@@ -1,0 +1,81 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+.items-Guitar {
+  padding: 1% 5%;
+}
+.items-Guitar h3 {
+  font-size: 1.5rem;
+}
+.items-Guitar .list_items-Guitar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.list_items-Guitar .box-item-Guitar {
+  border: 1px solid #dedede;
+  width: 30%;
+  margin-top: 10px;
+}
+.box-item-Guitar .img-item-Guitar {
+  width: 100%;
+}
+.img-item-Guitar img {
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+.box-item-Guitar .text-item-Guitar {
+  width: 100%;
+  padding-left: 2%;
+}
+.text-item-Guitar a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+.text-item-Guitar h4 {
+  margin-bottom: 10px;
+}
+.text-item-Guitar .price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.price li {
+  list-style: none;
+  font-size: 0.9rem;
+  font-weight: 550;
+  color: red;
+}
+.text-item-Guitar span {
+  font-size: 0.9rem;
+}
+/* CSS note-guitar */
+.note-guitar {
+  padding: 1.5% 3%;
+}
+.note-guitar .box-note-guitar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1% 3%;
+  background: #e6e7e8;
+}
+.box-note-guitar p {
+  font-size: 0.9rem;
+  text-transform: none;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.box-note-guitar .note {
+  padding-left: 2%;
+  margin-bottom: 10px;
+}
+.note li {
+  font-size: 0.9rem;
+  margin-bottom: 3px;
+}
+.box-note-guitar a {
+  text-decoration: none;
+}

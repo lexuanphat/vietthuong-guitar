@@ -1,0 +1,63 @@
+:root {
+  --hover-background: #1996a9;
+  --hover-bg: var(--hover-background);
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+.service {
+  padding: 3% 5%;
+}
+.service .list-items-service {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.list-items-service .box-item-service {
+  display: flex;
+  position: relative;
+  width: 32.333%;
+  height: 220px;
+}
+.box-item-service .img-item-service {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.img-item-service img {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+}
+/* CSS hover img */
+.img-item-service:hover img {
+  transform: scale(1.2);
+}
+/* End CSS hover img */
+.box-item-service .text-item-service {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  height: 15%;
+  width: 100%;
+  background: #ff7200;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+}
+.text-item-service a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+.text-item-service span {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 450;
+}
+/* CSS hover */
+.text-item-service:hover {
+  background: var(--hover-background);
+}

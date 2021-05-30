@@ -1,0 +1,573 @@
+:root {
+  --black-color: #231f20;
+  --grey-text-color: #bdbdbd;
+  --yellow-color: #fd0;
+  --footer-color: #e6e7e8;
+
+  --header-background: var(--black-color);
+  --nav-background: var(--yellow-color);
+  --text-menu: var(--black-color);
+  --grey-color: var(--grey-text-color);
+  --footer-backgounrd: var(--footer-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  box-sizing: border-box;
+}
+.header {
+  height: 38px;
+  width: 100%;
+  background: var(--header-background);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.header_box {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 9px 0;
+}
+.header ul {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_icon .icon_email {
+  height: 20px;
+  width: 24px;
+  margin-right: 5px;
+}
+.icon_email > img {
+  height: 100%;
+  width: 100%;
+}
+.header_icon li {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_icon a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9em;
+  font-family: "Roboto", sans-serif;
+  margin-right: 20px;
+}
+/* CSS Hover */
+a:hover {
+  text-decoration: underline;
+}
+/* CSS header_Text */
+.header_text {
+  display: flex;
+  justify-content: flex-end;
+}
+.header_text li {
+  list-style: none;
+}
+.header_text a {
+  display: block;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 1em;
+}
+/* CSS hover  */
+.header_text a:hover {
+  text-decoration: underline;
+}
+/* CSS Nav */
+.nav {
+  height: 50px;
+  width: 100%;
+  background: var(--nav-background);
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  position: relative;
+  z-index: 999;
+}
+.nav_logo-link {
+  width: 25%;
+  padding: 4px 0;
+}
+/* CSS menu */
+.nav_menu {
+  display: flex;
+  width: 75%;
+}
+.nav_menu .vmenu {
+  margin: auto 0;
+  width: 60%;
+}
+.vmenu .menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav_menu li {
+  list-style: none;
+}
+.nav_menu a {
+  text-decoration: none;
+  color: var(--text-menu);
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 0 10px 13px;
+}
+/* CSS Input_serch */
+.nav_menu .Input_serch {
+  margin: auto 0;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav .nav_moblie-input {
+  display: none;
+}
+.Input_serch input {
+  height: 30px;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+}
+.button_serch {
+  height: 30px;
+  width: 35px;
+  background: var(--header-background);
+  cursor: pointer;
+}
+.button_serch img {
+  height: 100%;
+  width: 100%;
+}
+/* CSS Hover Menu */
+.vmenu li a:hover {
+  border-bottom: 2px solid #fff;
+}
+/* CSS Sub-menu */
+.sub-menu {
+  position: absolute;
+  opacity: 0;
+  top: 110%;
+  background: var(--nav-background);
+  width: 15%;
+  visibility: visible;
+  transition: all 0.3s;
+}
+.sub-menu > li {
+  display: block;
+  margin-bottom: 15px;
+}
+.sub-menu a {
+  font-size: 1em;
+  padding: 10px 15px 5px;
+}
+/* CSS hover Sub-menu */
+li:hover > .sub-menu {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+/* CSS Slide-show */
+.slide-show {
+  width: 100%;
+}
+.slide-show img {
+  width: 100%;
+}
+/* CSS reponsive overplay */
+.nav .nav-overplay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+.nav .nav-bars-moblie {
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+  display: none;
+}
+.nav > .vmenu {
+  display: none;
+}
+.nav-bars-moblie img {
+  height: 100%;
+  width: 100%;
+}
+/* CSS main */
+.main {
+  width: 100%;
+}
+/* CSS Text-item */
+.text-item {
+  width: 100%;
+}
+.text-item .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--nav-background);
+  height: 50px;
+  width: 300px;
+  border: 1px solid var(--grey-color);
+  margin-bottom: 20px;
+}
+.text h2 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+/* CSS list-items */
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* CSS box-item */
+.list-items .box-item {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 350px;
+  border: 3px solid var(--nav-background);
+  overflow: hidden;
+}
+.box-item .img-item {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 15px;
+}
+.img-item img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.8s;
+}
+.box-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+.box-text a {
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--header-background);
+  margin-bottom: 10px;
+  z-index: 1;
+}
+.box-text p {
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  text-transform: capitalize;
+  color: red;
+  cursor: pointer;
+}
+/* CSS hover Box-items */
+.img-item:hover img {
+  transition: 0.5s;
+  transform: rotate(12deg);
+}
+/* CSS text-items-acs */
+.text-items-acs {
+  width: 100%;
+}
+.text-items-acs .text-acs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  background: var(--nav-background);
+  border: 1px solid var(--grey-color);
+  margin-bottom: 20px;
+}
+.text-acs h3 {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* CSS list-items-acs */
+.list-items-acs {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.list-items-acs .box-item-acs {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 15%;
+  border: 2px solid var(--nav-background);
+}
+.box-item-acs .img-item-acs {
+  height: 180px;
+  width: 100%;
+}
+.img-item-acs img {
+  height: 100%;
+  width: 100%;
+}
+/* Css text-item-acs */
+.text-item-acs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.text-item-acs a,
+p {
+  font-size: 0.9em;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: var(--header-background);
+  font-weight: 450;
+  text-transform: uppercase;
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+.text-item-acs p {
+  text-align: center;
+  color: red;
+  margin: 0;
+}
+/* CSS news */
+.news {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.news .text-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+  background: var(--header-background);
+  border: 1px solid var(--nav-background);
+  margin-bottom: 20px;
+}
+.text-new h4 {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: var(--nav-background);
+  opacity: 0.3;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.text-new h4:hover {
+  opacity: 1;
+}
+/* CSS list-new */
+.list-news {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.box-new {
+  display: flex;
+  flex-direction: column;
+  max-height: 300px;
+  overflow: hidden;
+  width: 30%;
+  background: var(--footer-backgounrd);
+  border-bottom: 1px solid var(--grey-color);
+}
+.box-new .img-new {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+.img-new img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s;
+}
+.content-new {
+  width: 100%;
+  padding-left: 5px;
+}
+.content-new a {
+  font-size: 0.9em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  text-decoration: none;
+  color: var(--header-background);
+  cursor: pointer;
+}
+.content-new small {
+  cursor: pointer;
+}
+/* CSS hover Text-new */
+.content-new a:hover {
+  text-decoration: underline;
+}
+/* CSS hover IMG new */
+.img-new:hover img {
+  transform: scale(1.1);
+}
+/* CSS footer */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 522px;
+}
+/* CSS footer contact */
+.footer .contact {
+  display: flex;
+  height: 225px;
+  width: 100%;
+  background: var(--footer-backgounrd);
+}
+.text-contact {
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.text-contact h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.button-contact {
+  margin-top: 10px;
+}
+.button-contact button {
+  height: 38px;
+  width: 164px;
+  outline: none;
+  border: none;
+  background: var(--header-background);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 450;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+/* CSS hover button-contact */
+.button-contact button:hover {
+  background: var(--nav-background);
+  color: var(--header-background);
+}
+/* CSS footer FAQ */
+.text-faq {
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.text-faq h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.input-faq {
+  margin-top: 10px;
+}
+.input-faq input {
+  height: 32px;
+  width: 200px;
+  border: 1px solid var(--grey-color);
+  outline: none;
+  padding-left: 10px;
+}
+.input-faq input[type="text"] {
+  font-style: italic;
+}
+.input-faq button {
+  width: 62px;
+  height: 30px;
+  background: var(--header-background);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+/* CSS checkbox */
+.checkbox {
+  margin-top: 10px;
+}
+.checkbox span {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+  font-weight: 450;
+}
+/* CSS FAQ */
+.faq {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  width: 100%;
+  background: var(--header-background);
+  padding-top: 40px;
+}
+/* CSS box-faq */
+.faq .box-faq {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.box-faq h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+/* CSS list-faq */
+.box-faq .list-faq {
+  display: flex;
+  flex-direction: column;
+}
+.list-faq li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.list-faq a {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+/* CSS hover list-faq */
+.list-faq a:hover {
+  color: var(--nav-background);
+}

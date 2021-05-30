@@ -1,0 +1,73 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+.items-drum {
+  padding: 1% 5%;
+}
+.items-drum h3 {
+  font-size: 1.5rem;
+}
+.items-drum .list_items-drum {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.list_items-drum .box-item-drum {
+  border: 1px solid #dedede;
+  width: 32.3%;
+  margin-top: 10px;
+}
+.box-item-drum .img_item-drum {
+  width: 100%;
+}
+.img_item-drum img {
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+}
+/* CSS text-item */
+.text_item-drum {
+  padding-left: 2%;
+  width: 100%;
+}
+.text_item-drum a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+.text_item-drum h4 {
+  margin-bottom: 10px;
+}
+.text_item-drum .price {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.price li {
+  list-style: none;
+  font-size: 0.9rem;
+  font-weight: 550;
+  color: red;
+  margin-bottom: 5px;
+}
+.text_item-drum span {
+  font-size: 0.9rem;
+}
+/* CSS note-drum */
+.note-drum {
+  padding: 1% 5%;
+}
+.note-drum .box-note-drum {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #e6e7e8;
+  padding: 1% 2%;
+}
+.box-note-drum p {
+  text-transform: none;
+  padding: 0;
+}
+.box-note-drum span {
+  font-size: 0.9rem;
+}
