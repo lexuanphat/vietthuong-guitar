@@ -227,6 +227,7 @@
     font-size: 0.7rem;
   }
   .box-text p {
+    text-align: left;
     font-size: 0.7rem;
   }
   /* CSS text-ITEMS-ACS */
@@ -246,22 +247,24 @@
     width: 100%;
   }
   .list-items-acs .box-item-acs {
-    width: 19%;
-    height: 150px;
+    width: 48%;
   }
   .box-item-acs .img-item-acs {
     width: 100%;
-    height: 90px;
   }
   .img-item-acs img {
     height: 100%;
     width: 100%;
   }
   .box-item-acs .text-item-acs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
   .text-item-acs span,
   p {
+    text-align: center;
     font-size: 0.6rem;
   }
   /* CSS news */

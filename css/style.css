@@ -246,13 +246,11 @@ li:hover > .sub-menu {
   display: flex;
   flex-direction: column;
   width: 20%;
-  height: 350px;
   border: 3px solid var(--nav-background);
   overflow: hidden;
 }
 .box-item .img-item {
   width: 100%;
-  height: 250px;
   margin-bottom: 15px;
 }
 .img-item img {
@@ -311,6 +309,7 @@ li:hover > .sub-menu {
 /* CSS list-items-acs */
 .list-items-acs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
   margin-bottom: 20px;
@@ -319,8 +318,9 @@ li:hover > .sub-menu {
   display: flex;
   flex-direction: column;
   height: 250px;
-  width: 15%;
+  width: 17%;
   border: 2px solid var(--nav-background);
+  margin-bottom: 10px;
 }
 .box-item-acs .img-item-acs {
   height: 180px;
