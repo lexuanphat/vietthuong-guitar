@@ -5,7 +5,6 @@
     overflow-x: hidden !important;
   }
   .header {
-    height: 38px;
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
@@ -74,7 +73,8 @@
   }
   .nav_menu .Input_serch {
     display: flex;
-    width: 40%;
+    width: 65%;
+    justify-content: center;
   }
   .Input_serch input {
     width: 100px;

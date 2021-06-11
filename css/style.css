@@ -24,7 +24,6 @@ html {
   box-sizing: border-box;
 }
 .header {
-  height: 38px;
   width: 100%;
   background: var(--header-background);
   padding-left: 50px;
