@@ -29,6 +29,7 @@ html {
 .box-item-sound .text_item-sound {
   padding-left: 2%;
   width: 100%;
+  padding-bottom: 10px;
 }
 .text_item-sound a {
   text-decoration: none;
@@ -37,6 +38,8 @@ html {
 .text_item-sound h4 {
   font-size: 1rem;
   margin-bottom: 10px;
+  font-weight: 450;
+  text-transform: uppercase;
 }
 .text_item-sound .price {
   display: flex;
@@ -79,4 +82,9 @@ html {
 }
 .img-note-sound img {
   width: 100%;
+}
+
+/* CSS hover a */
+.text_item-sound h4:hover {
+  text-decoration: underline;
 }

@@ -1,0 +1,38 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+.new-1 {
+  padding: 3% 5%;
+}
+.text_new {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+.text_new h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.text_new span {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+.text_new .img-news {
+  margin: 0 auto;
+  width: 80%;
+}
+.img-news img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.text_new p {
+  font-size: 0.9rem;
+  text-transform: none;
+}
+.text_new h4 {
+  font-size: 0.9rem;
+}
+.img-new:hover img {
+  transition: none;
+}

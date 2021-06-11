@@ -10,6 +10,7 @@ html {
 }
 .service .list-items-service {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 10px;
@@ -19,6 +20,7 @@ html {
   position: relative;
   width: 32.333%;
   height: 220px;
+  margin-bottom: 15px;
 }
 .box-item-service .img-item-service {
   overflow: hidden;

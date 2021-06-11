@@ -1,3 +1,7 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 .main-news {
   padding: 2% 5%;
 }
@@ -7,6 +11,7 @@
   height: 320px;
   width: 100%;
   background: #dedede;
+  background: rgba(255, 217, 0, 0.5);
   padding: 1%;
 }
 .list_main-news .box_main-new {
@@ -30,6 +35,7 @@
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  transition: 0.5s;
 }
 .text_main-news a {
   text-decoration: none;
@@ -42,5 +48,5 @@
 }
 /* CSS hover */
 .text_main-news:hover {
-  background: #ac3a2b;
+  background: gold;
 }

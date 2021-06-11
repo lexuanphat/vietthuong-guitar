@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sự kiện Âm nhạc</title>
+    <link rel="shortcut icon" href="./img/logotiltle.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/product-events.css" />
+    <link rel="stylesheet" href="./css/reponsive_product-events.css" />
+    <link
+      rel="stylesheet"
+      href="./css/reponsive-tablet_product-item-sukien.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="header_box">
+          <ul class="header_icon">
+            <li>
+              <div class="icon_email">
+                <img src="./img/email.png" alt="" />
+              </div>
+              <a href="mailto:admin@fpt.edu.vn">admin@fpt.edu.vn</a>
+            </li>
+            <li>
+              <div class="icon_email">
+                <img src="./img/phone.png" alt="" />
+              </div>
+              <a href="tel:+84783635341">0888.111.222</a>
+            </li>
+          </ul>
+          <ul class="header_text">
+            <div class="cart">
+              <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+              <a href="./cart.html"><p>Giỏ hàng</p></a>
+              <span style="color: red">0</span>
+            </div>
+            <li><a href="./distribution-system.html">Hệ thống phân phối</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- Nav -->
+      <nav class="nav">
+        <div class="nav_logo-link">
+          <a href="./index.html"><img src="./img/logo1.png" alt="" /></a>
+        </div>
+        <div class="nav_menu">
+          <div class="vmenu">
+            <ul class="menu">
+              <li>
+                <a href="./gioithieu.html">Giới thiệu</a>
+              </li>
+              <li>
+                <a href="./index.html">Sản phẩm</a>
+                <ul class="sub-menu">
+                  <li><a href="./items-piano.html">Piano</a></li>
+                  <li><a href="./items-guitar.html">Guitar</a></li>
+                  <li><a href="./items-drum.html">Trống</a></li>
+                  <li><a href="./items-sound.html">Âm thanh</a></li>
+                </ul>
+              </li>
+              <li><a href="./chothue.html">Cho thuê</a></li>
+              <li>
+                <a href="./tintuc.html">Tin tức</a>
+                <ul class="sub-menu">
+                  <li><a href="./product-event_sukien.html">Sự kiện</a></li>
+                  <li><a href="./product-event_tuvan.html">Tư vấn</a></li>
+                </ul>
+              </li>
+              <li><a href="./tuyendung.html">Tuyển dụng</a></li>
+            </ul>
+          </div>
+          <div class="Input_serch">
+            <input type="text" placeholder="Tìm kiếm..." />
+            <button class="serch-key" type="button">Search</button>
+          </div>
+        </div>
+        <label for="nav-input" class="nav-bars-moblie">
+          <img src="./img/bars.png" alt="" />
+        </label>
+        <input type="checkbox" id="nav-input" class="nav_moblie-input" />
+        <label for="nav-input" class="nav-overplay"></label>
+        <div class="vmenu bars-menu">
+          <label for="nav-input" class="nav-moblie-close">
+            <img src="./img/close.png" alt="" />
+          </label>
+          <h4 class="bars-text-menu">Menu</h4>
+          <ul class="menu list-menu">
+            <li>
+              <a href="./gioithieu.html">Giới thiệu</a>
+            </li>
+            <li>
+              <a href="./index.html">Sản phẩm</a>
+              <label for="check-sub" class="check-submenu">
+                <img src="./img/caret-down.png" alt="" />
+              </label>
+              <input
+                type="checkbox"
+                name=""
+                id="check-sub"
+                class="input-check"
+              />
+              <ul class="sub-menu sub-menu-moblie">
+                <li>
+                  <a href="./items-piano.html" class="text-sub-menu">Piano</a>
+                </li>
+                <li>
+                  <a href="./items-guitar.html" class="text-sub-menu">Guitar</a>
+                </li>
+                <li>
+                  <a href="./items-drum.html" class="text-sub-menu">Trống</a>
+                </li>
+                <li>
+                  <a href="./items-sound.html" class="text-sub-menu"
+                    >Âm thanh</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a href="./chothue.html">Cho thuê</a></li>
+            <li>
+              <a href="">Tin tức</a>
+              <label for="check-sub1" class="check-submenu">
+                <img src="./img/caret-down.png" alt="" />
+              </label>
+              <input
+                type="checkbox"
+                name=""
+                id="check-sub1"
+                class="input-check"
+              />
+              <ul class="sub-menu sub-menu-moblie">
+                <li>
+                  <a
+                    href="./product-event_sukien.html
+                  "
+                    class="text-sub-menu"
+                    >Sự kiện</a
+                  >
+                </li>
+                <li>
+                  <a href="./product-event_tuvan.html" class="text-sub-menu"
+                    >Tư vấn</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a href="./tuyendung.html">Tuyển dụng</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Star service -->
+      <main class="main product-event">
+        <div class="list_product-event">
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event.jpg" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""
+                ><h4>
+                  Lên đời đàn piano cơ cũ thành Kawai K300 tại Việt Thương Music
+                </h4></a
+              >
+              <p>
+                Chương trình này diễn ra từ ngày 01/06/2021 đàn piano cơ cũ của
+                bạn sẽ được định giá và bù thêm tiền để đổi lấy Kawai K300. Bạn
+                không nên bỏ qua cơ hội này tại Việt Thương Music để sở hữu cây
+                đàn Kawai K300 mới chính hãng 100%.
+              </p>
+            </div>
+          </div>
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event1.jpg" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""
+                ><h4>
+                  Chương trình khuyến mãi: Đặt trước rước quà duy nhất trong
+                  tháng 6 của Việt Thương Music
+                </h4></a
+              >
+              <p>
+                Từ ngày 01/06/2021 đến ngày 10/06/2021 Việt Thương Music giới
+                thiệu đến quý khách hàng chương trình ưu đãi đặc biệt Pre-order,
+                được áp dụng trên toàn bộ hệ thống của chúng tôi dành cho các
+                hình thức mua hàng online và trực tiếp với các sản phẩm
+                Casiotone.
+              </p>
+            </div>
+          </div>
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event2.png" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""
+                ><h4>
+                  Thông báo danh sách các chi nhánh Việt Thương Music tạm đóng
+                  cửa bắt đầu từ ngày 31/0502021
+                </h4></a
+              >
+              <p>
+                Do diễn biến dịch Covid lần thứ tư diễn biến phức tạp tại
+                TP.HCM, để đảm bảo sức khỏe cho khách hàng và nhân viên bán hàng
+                tại các khu vực tâm dịch, các TTTM, phối hợp với các chỉ thị
+                giãn cách xã hội của Chính Phủ
+              </p>
+            </div>
+          </div>
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event3.jpg" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""
+                ><h4>
+                  Thông báo thay đổi lịch thi chứng chỉ âm nhạc LCM kỳ thi mùa
+                  hè 2021
+                </h4></a
+              >
+              <p>
+                Do dịch Covid bùng phát trở lại lần thứ 4, và các diễn biến
+                trong thời gian tới sẽ còn phức tạp. Để đảm bảo sức khỏe cộng
+                đồng và hỗ trợ các thí sinh đạt kết quả tốt nhất trong kỳ thi
+                LCM mùa hè 2021
+              </p>
+            </div>
+          </div>
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event4.jpg" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""><h4>Giải trí tại nhà mùa cô vy – Mua là có quà</h4></a>
+              <p>
+                Mùa hạ về viết tiếp bản tình ca Ve dạo khúc ngân nga trong
+                thương nhớ… Con thuyền thời gian bắt đầu cập bến mùa hạ. Nhưng
+                khác với những mùa hạ trước khi những chuyến du lịch, hội hè gặp
+                mặt bạn bè là tâm điểm, trong thời gian này tất cả chúng ta đều
+                gặp nhiều khó khăn do ảnh hưởng của dịch bệnh.
+              </p>
+            </div>
+          </div>
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event5.jpg" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""
+                ><h4>
+                  Thông báo lịch hoạt động của hệ thống showroom Việt Thương
+                  Music trong dịp lễ 30/4 và 1/5
+                </h4></a
+              >
+              <p>
+                Trong dịp nghỉ lễ dài ngày 30/4 và 01/05 Việt Thương Music xin
+                thông báo đến quý khách hàng lịch hoạt động của hệ thống
+                showroom cụ thể như sau:
+              </p>
+            </div>
+          </div>
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event6.jpg" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""
+                ><h4>
+                  Talkshow: Pop Piano – Học và chơi Piano theo cách riêng của
+                  bạn
+                </h4></a
+              >
+              <p>
+                Bạn có bao giờ tự hỏi “Làm sao để có thể chơi được Piano bài hát
+                mà mình yêu thích, hay Làm sao để vừa đánh đàn vừa hát những ca
+                khúc đang hot trên mạng xã hội”… Nếu bạn đang đi tìm câu trả lời
+                cho các câu hỏi trên, hay những câu hỏi tương tự thì talkshow
+                Pop Piano - Học và chơi Piano theo cách riêng của bạn, diễn ra v
+              </p>
+            </div>
+          </div>
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event7.png" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""><h4>Tháng tư ưu đãi - Quà tặng chất lừ</h4></a>
+              <p>
+                Khẽ chào cô gái tháng tư của tôi… Tháng tư về! Sự giao thoa giữa
+                cái ấm áp của mùa xuân và cái oi nồng của mùa hè. Nắng đã lên và
+                đổ dài trên những con đường. Cái nắng không gay gắt như mùa hạ,
+                không dịu dàng như mùa thu hay ít ỏi của mùa đông thật sự mang
+                đến nét đẹp rất riêng trong những ngày này. Và sẽ còn
+              </p>
+            </div>
+          </div>
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event8.jpg" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""><h4>Casio Music Fest: Touch Your Dream</h4></a>
+              <p>
+                Casio là một thương hiệu đã quá quen thuộc tại Việt Nam với sản
+                phẩm thuộc nhiều lĩnh vực. Riêng trong mảng sản xuất nhạc cụ
+                Casio được mệnh danh là Thương hiệu của giáo dục...Tuy nhiên
+                không phải vì thế mà nhạc cụ của Casio không lên sân khấu được,
+                thua kém các thương hiệu khác, mà ngược lại ...
+              </p>
+            </div>
+          </div>
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event9.jpg" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""
+                ><h4>
+                  ADAM Audio phát hành sản phẩm mới mang tính cách mạng
+                </h4></a
+              >
+              <p>
+                CHỈ CÓ THỂ ĐẶT HÀNG DUY NHẤT NGÀY 1 THÁNG 4 NĂM 2021 Việc tối ưu
+                hóa âm thanh của phòng thu là yếu tố quan trọng góp phần tạo nên
+                môi trường nghe nhạc tối ưu, nhưng đồng thời việc này cũng có
+                thể trở nên rất phức tạp, tốn kém và khó tích hợp. Đó là lý do
+                tại sao ADAM Audio đã phát triển một sản phẩm mới mang tính cá
+              </p>
+            </div>
+          </div>
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event10.png" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""
+                ><h4>Workshop guitar: Guitar thùng cho người mới bắt đầu</h4></a
+              >
+              <p>
+                workshop “ Guitar thùng cho người mới bắt đầu”, do guitar
+                bassist Phước Nguyễn dẫn dắt và chia sẻ kinh nghiệm của bản thân
+                tới quý khách tham dự sự kiện, tại Yoko Cafe vào 11/ 04/ 2021.
+              </p>
+            </div>
+          </div>
+          <div class="box_product-event">
+            <div class="img_product-event">
+              <a href="./product-service_sukien.html"
+                ><img src="./img/img_product-event11.png" alt=""
+              /></a>
+            </div>
+            <div class="text_product-event">
+              <a href=""
+                ><h4>
+                  Ưu đãi 3% ngay khi khách hàng mua sản phẩm tại Việt Thương
+                  Music thanh toán bằng VNPAY-QR.
+                </h4></a
+              >
+              <p>
+                Khi có VNPAY-QR bạn được hưởng ngay ưu đãi 3% khi mua bất kỳ sản
+                phẩm nào tại hệ thống showroom của chúng tôi
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End service -->
+      </main>
+      <!-- Start footer -->
+      <footer class="footer">
+        <!-- start Contact footer -->
+        <div class="contact">
+          <div class="text-contact">
+            <h3>Liên hệ</h3>
+            <small
+              >Chúng tôi sẽ giúp bạn tìm đúng giải pháp cho đam mê của
+              bạn.</small
+            >
+            <div class="button-contact">
+              <button>Gửi email</button>
+              <button>Hotline</button>
+            </div>
+          </div>
+          <div class="text-faq">
+            <h3>Đăng kí nhận email cập nhật</h3>
+            <small>Để lại email để nhận thông tin mới nhất.</small>
+            <div class="input-faq">
+              <input type="text" placeholder="Địa chỉ email" />
+              <button>Đăng ký</button>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" />
+              <span>Tôi đồng ý chia sẻ thông tin cá nhân của mình.</span>
+            </div>
+          </div>
+        </div>
+        <!-- End contact footer -->
+        <!-- Star faq -->
+        <div class="faq">
+          <div class="box-faq">
+            <h4>Thông tin việt thương</h4>
+            <ul class="list-faq">
+              <li><a href="">Giới thiệu công ty</a></li>
+              <li><a href="">Liên hệ / góp ý</a></li>
+              <li><a href="">Mua trả góp</a></li>
+              <li><a href="">Chương trình khách hàng thân thiết</a></li>
+              <li><a href="">Điều khoản sử dụng website</a></li>
+              <li><a href="">Tuyển dụng</a></li>
+            </ul>
+          </div>
+          <div class="box-faq">
+            <h4>Hướng dẫn chung</h4>
+            <ul class="list-faq">
+              <li><a href="">Giao hàng - Đổi trả</a></li>
+              <li><a href="">Hướng dẫn mua hàng</a></li>
+              <li><a href="">Thanh toán và bảo mật</a></li>
+              <li><a href="">Chính sách bảo hành</a></li>
+              <li><a href="">Bảo trì đàn piano</a></li>
+              <li><a href="">Kích hoạt bảo hành</a></li>
+            </ul>
+          </div>
+          <div class="box-faq">
+            <h4>Hỗ trợ khách hàng</h4>
+            <ul class="list-faq">
+              <li>
+                Gọi mua hàng:
+                <a href="tel:+84783635341" style="color: red">1800 6715</a>(Miễn
+                Phí)
+              </li>
+              <li>
+                Khiếu nại, Bảo hành:
+                <a href="tel:+84783635341" style="color: red">028710 88 333</a>
+              </li>
+              <li>Thời gian phục vụ: 8h-22h</li>
+              <li>Email: info@vietthuong.vn</li>
+            </ul>
+          </div>
+        </div>
+        <!-- End faq -->
+      </footer>
+      <!-- End footer -->
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/main1.js"></script>
+    <script src="./js/main2.js"></script>
+    <script src="./js/main3.js"></script>
+    <script src="./js/main4.js"></script>
+    <script src="./js/main5.js"></script>
+  </body>
+</html>

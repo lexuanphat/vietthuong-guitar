@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dịch vụ cho thuê đàn Guitar</title>
+    <link rel="shortcut icon" href="./img/logotiltle.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/service_piano-electric.css" />
+    <link rel="stylesheet" href="./css/reponsive_service-item.css" />
+    <link
+      rel="stylesheet"
+      href="./css/reponsive-tablet_service-piano-electric.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="header_box">
+          <ul class="header_icon">
+            <li>
+              <div class="icon_email">
+                <img src="./img/email.png" alt="" />
+              </div>
+              <a href="mailto:admin@fpt.edu.vn">admin@fpt.edu.vn</a>
+            </li>
+            <li>
+              <div class="icon_email">
+                <img src="./img/phone.png" alt="" />
+              </div>
+              <a href="tel:+84783635341">0888.111.222</a>
+            </li>
+          </ul>
+          <ul class="header_text">
+            <div class="cart">
+              <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+              <a href="./cart.html"><p>Giỏ hàng</p></a>
+              <span style="color: red">0</span>
+            </div>
+            <li><a href="./distribution-system.html">Hệ thống phân phối</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- Nav -->
+      <nav class="nav">
+        <div class="nav_logo-link">
+          <a href="./index.html"><img src="./img/logo1.png" alt="" /></a>
+        </div>
+        <div class="nav_menu">
+          <div class="vmenu">
+            <ul class="menu">
+              <li>
+                <a href="./gioithieu.html">Giới thiệu</a>
+              </li>
+              <li>
+                <a href="./index.html">Sản phẩm</a>
+                <ul class="sub-menu">
+                  <li><a href="./items-piano.html">Piano</a></li>
+                  <li><a href="./items-guitar.html">Guitar</a></li>
+                  <li><a href="./items-drum.html">Trống</a></li>
+                  <li><a href="./items-sound.html">Âm thanh</a></li>
+                </ul>
+              </li>
+              <li><a href="./chothue.html">Cho thuê</a></li>
+              <li>
+                <a href="./tintuc.html">Tin tức</a>
+                <ul class="sub-menu">
+                  <li><a href="./product-event_sukien.html">Sự kiện</a></li>
+                  <li><a href="./product-event_tuvan.html">Tư vấn</a></li>
+                </ul>
+              </li>
+              <li><a href="./tuyendung.html">Tuyển dụng</a></li>
+            </ul>
+          </div>
+          <div class="Input_serch">
+            <input type="text" placeholder="Tìm kiếm..." />
+            <button class="serch-key" type="button">Search</button>
+          </div>
+        </div>
+        <label for="nav-input" class="nav-bars-moblie">
+          <img src="./img/bars.png" alt="" />
+        </label>
+        <input type="checkbox" id="nav-input" class="nav_moblie-input" />
+        <label for="nav-input" class="nav-overplay"></label>
+        <div class="vmenu bars-menu">
+          <label for="nav-input" class="nav-moblie-close">
+            <img src="./img/close.png" alt="" />
+          </label>
+          <h4 class="bars-text-menu">Menu</h4>
+          <ul class="menu list-menu">
+            <li>
+              <a href="./gioithieu.html">Giới thiệu</a>
+            </li>
+            <li>
+              <a href="./index.html">Sản phẩm</a>
+              <label for="check-sub" class="check-submenu">
+                <img src="../img/caret-down.png" alt="" />
+              </label>
+              <input
+                type="checkbox"
+                name=""
+                id="check-sub"
+                class="input-check"
+              />
+              <ul class="sub-menu sub-menu-moblie">
+                <li>
+                  <a href="./items-piano.html" class="text-sub-menu">Piano</a>
+                </li>
+                <li>
+                  <a href="./items-guitar.html" class="text-sub-menu">Guitar</a>
+                </li>
+                <li>
+                  <a href="./items-drum.html" class="text-sub-menu">Trống</a>
+                </li>
+                <li>
+                  <a href="./items-sound.html" class="text-sub-menu"
+                    >Âm thanh</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a href="./chothue.html">Cho thuê</a></li>
+            <li>
+              <a href="./tintuc.html">Tin tức</a>
+              <label for="check-sub1" class="check-submenu">
+                <img src="./img/caret-down.png" alt="" />
+              </label>
+              <input
+                type="checkbox"
+                name=""
+                id="check-sub1"
+                class="input-check"
+              />
+              <ul class="sub-menu sub-menu-moblie">
+                <li>
+                  <a href="./product-event_sukien.html" class="text-sub-menu"
+                    >Sự kiện</a
+                  >
+                </li>
+                <li>
+                  <a href="./product-event_tuvan.html" class="text-sub-menu"
+                    >Tư vấn</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a href="./tuyendung.html">Tuyển dụng</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="main service_piano-electric">
+        <div class="list_service-piano">
+          <div class="contact_service-more">
+            <div class="box_service-more">
+              <img src="./img/chothue.jpg" alt="" />
+              <a href="./service_piano-electric.html"
+                >Dịch vụ cho thuê đàn Piano điện tập tại nhà</a
+              >
+            </div>
+            <div class="box_service-more">
+              <img src="./img/chothue1.jpg" alt="" />
+              <a href="./service_piano.html">Cho thuê đàn Piano </a>
+            </div>
+            <div class="box_service-more">
+              <img src="./img/chothue2.jpg" alt="" />
+              <a href="./service_organ.html">Cho thuê đàn Organ</a>
+            </div>
+            <div class="box_service-more">
+              <img src="./img/chothue3.jpg" alt="" />
+              <a href="./service_guitar.html">Cho thuê đàn Guitar</a>
+            </div>
+            <div class="box_service-more">
+              <img src="./img/chothue4.jpg" alt="" />
+              <a href="./service_drum.html">Cho thuê đàn trống</a>
+            </div>
+            <div class="box_service-more">
+              <img src="./img/chothue5.jpg" alt="" />
+              <a href="./service_sound.html">Cho thuê Âm thanh & Ánh sáng</a>
+            </div>
+          </div>
+          <div class="box_service-piano">
+            <h3>CHO THUÊ ĐÀN GUITAR</h3>
+            <p>
+              Công ty âm nhạc Việt Thương Music mang đến cho khách hàng nhiều
+              lựa chọn đối với các hình thức cho thuê đàn guitar thùng, guitar
+              điện, guitar bass giúp quý khách hàng dễ dàng lựa chọn được hình
+              thức thuê phù hợp, vừa đảm bảo được mục đích sử dụng đồng thời lại
+              tiết kiệm được chi phí.
+            </p>
+
+            <p>
+              Dịch vụ cho thuê đàn guitar tại Việt Thương gồm có hình thức thuê
+              theo thời gian, thuê theo số lượng… để khách thuê chủ động trong
+              việc lựa chọn hình thức thuê.
+            </p>
+            <h4 style="color: blue">Thuê đàn guitar tính theo thời gian</h4>
+            <p>
+              <b>Thuê đàn guitar điện theo giờ: </b>đối với hình thức cho thuê
+              này sẽ phù hợp cho những ai có nhu cầu thuê đàn để phục vụ cho một
+              tiết mục biểu diễn trong 1 chương trình nào đó.
+            </p>
+            <p>
+              <b>Thuê đàn guitar theo ngày: </b>hình thức này được khá nhiều
+              người lựa chọn vì với mức chi phí vừa phải đồng thời bạn sẽ không
+              bị gò bó quá về mặt thời gian như việc thuê theo giờ.
+            </p>
+            <p>
+              <b>Thuê đàn guitar theo tuần, theo tháng: </b>cách thuê đàn guitar
+              dài hạn này được nhiều người lựa chọn cho các chương trình lưu
+              diễn đi xa hay được những người mới bắt đầu học đàn guitar để phục
+              vụ cho việc học tập nhưng lại chưa có đủ kinh phí để mua một cây
+              đàn cao cấp để luyện tập.
+            </p>
+
+            <div class="img_service-piano">
+              <img src="./img/img_service-guitar.jpg" alt="" />
+              <p>Việt Thương Music cho thuê các loại guitar</p>
+            </div>
+            <h4 style="color: blue">Thuê đàn guitar tính số lượng</h4>
+            <p>
+              <b>Thuê một cây: </b>cách thức thuê này phù hợp cho việc cá nhân
+              có nhu cầu riêng để biểu diễn hay tập luyện, trải nghiệm sản phẩm
+              đời mới xem có hợp với đàn hay không trước khi quyết định mua.
+            </p>
+            <p>
+              <b>Thuê số lượng lớn: </b>việc thuê đàn guitar điện số lượng lớn
+              phù hợp cho việc biểu diễn theo nhóm, lớp học nhạc, đại lý mở dịch
+              vụ cho thuê.... Khi thuê đàn guitar điện, guitar thùng, guitar
+              bass số lượng lớn, quý khách được chiết khấu cao, sử dụng dịch vụ
+              với giá cả ưu đãi.
+            </p>
+
+            <div class="img_service-piano1">
+              <img src="./img/img_service-guitar1.jpg" alt="" />
+              <p>
+                Dễ dàng chọn lựa và thuê đàn guitar phù hợp với bạn từ hệ thống
+                showroom khổng lồ của Việt Thương
+              </p>
+            </div>
+            <h4 style="color: blue">Giá thuê guitar tại Việt Thương Music</h4>
+            <p>
+              Tùy theo thể loại sản phẩm, nguồn gốc xuất xứ, đời sản phẩm mà giá
+              thuê đàn guitar có sự chênh lệch, nhưng về cơ bản thì mức giá được
+              định khung như sau:
+            </p>
+            <table border="1" class="table-form">
+              <tr>
+                <th>Sản phẩm</th>
+                <td>Giá thuê/cây (VAT)</td>
+              </tr>
+              <tr>
+                <th>Guitar điện (trung)</th>
+                <td>500.000</td>
+              </tr>
+              <tr>
+                <th>Bass (trung)</th>
+                <td>700.000</td>
+              </tr>
+              <tr>
+                <th>Guitar thùng (trung)</th>
+                <td>300.000</td>
+              </tr>
+              <tr>
+                <th>Guitar classic (trung)</th>
+                <td>250.000</td>
+              </tr>
+              <tr>
+                <th>Guitar điện (cao)</th>
+                <td>1.200.000</td>
+              </tr>
+              <tr>
+                <th>Bass (cao)</th>
+                <td>1.100.000</td>
+              </tr>
+              <tr>
+                <th>Guitar thùng (cao)</th>
+                <td>550.000</td>
+              </tr>
+            </table>
+            <p>
+              Khi biểu diễn ở sân khấu lớn, ban nhạc ắt hẳn cần đến amplifier
+              khuếch đại âm thanh, vậy hãy tham khảo qua dịch vụ cho thuê amply
+              guitar của Việt Thương.
+            </p>
+            <p>
+              Những mẫu amply công suất cao của BOSS, ROLAND Nhật Bản, Chất âm
+              chuẩn, 2 line in cho guitar thùng & hát + 2 line out, Chức năng
+              chống hú cho mic & guitar thùng, Tích hợp tuner & phơ cho bass,
+              Loa bóng đèn sân khấu tiện dụng,…. Chuyên dành cho biểu diễn giá
+              thuê chỉ 500.000đ, cực kỳ tiện lợi và tiết kiệm cho ban nhạc.
+            </p>
+            <p>
+              Mọi liên hệ thắc mắc, hoặc đặt thuê guitar điện, guitar acoustic,
+              guitar classic, guitar bass và amplifer guitar tại Việt Thương xin
+              liên hệ:
+            </p>
+            <span
+              >Gọi tư vấn ngay! : <a href="tel:+84783635341">1800 6715</a>
+            </span>
+          </div>
+        </div>
+      </main>
+      <!-- Start footer -->
+      <footer class="footer">
+        <!-- start Contact footer -->
+        <div class="contact">
+          <div class="text-contact">
+            <h3>Liên hệ</h3>
+            <small
+              >Chúng tôi sẽ giúp bạn tìm đúng giải pháp cho đam mê của
+              bạn.</small
+            >
+            <div class="button-contact">
+              <button>Gửi email</button>
+              <button>Hotline</button>
+            </div>
+          </div>
+          <div class="text-faq">
+            <h3>Đăng kí nhận email cập nhật</h3>
+            <small>Để lại email để nhận thông tin mới nhất.</small>
+            <div class="input-faq">
+              <input type="text" placeholder="Địa chỉ email" />
+              <button>Đăng ký</button>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" />
+              <span>Tôi đồng ý chia sẻ thông tin cá nhân của mình.</span>
+            </div>
+          </div>
+        </div>
+        <!-- End contact footer -->
+        <!-- Star faq -->
+        <div class="faq">
+          <div class="box-faq">
+            <h4>Thông tin việt thương</h4>
+            <ul class="list-faq">
+              <li><a href="">Giới thiệu công ty</a></li>
+              <li><a href="">Liên hệ / góp ý</a></li>
+              <li><a href="">Mua trả góp</a></li>
+              <li><a href="">Chương trình khách hàng thân thiết</a></li>
+              <li><a href="">Điều khoản sử dụng website</a></li>
+              <li><a href="">Tuyển dụng</a></li>
+            </ul>
+          </div>
+          <div class="box-faq">
+            <h4>Hướng dẫn chung</h4>
+            <ul class="list-faq">
+              <li><a href="">Giao hàng - Đổi trả</a></li>
+              <li><a href="">Hướng dẫn mua hàng</a></li>
+              <li><a href="">Thanh toán và bảo mật</a></li>
+              <li><a href="">Chính sách bảo hành</a></li>
+              <li><a href="">Bảo trì đàn piano</a></li>
+              <li><a href="">Kích hoạt bảo hành</a></li>
+            </ul>
+          </div>
+          <div class="box-faq">
+            <h4>Hỗ trợ khách hàng</h4>
+            <ul class="list-faq">
+              <li>
+                Gọi mua hàng:
+                <a href="tel:+84783635341" style="color: red">1800 6715</a>(Miễn
+                Phí)
+              </li>
+              <li>
+                Khiếu nại, Bảo hành:
+                <a href="tel:+84783635341" style="color: red">028710 88 333</a>
+              </li>
+              <li>Thời gian phục vụ: 8h-22h</li>
+              <li>Email: info@vietthuong.vn</li>
+            </ul>
+          </div>
+        </div>
+        <!-- End faq -->
+      </footer>
+      <!-- End footer -->
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

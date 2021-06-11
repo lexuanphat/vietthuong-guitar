@@ -1,0 +1,165 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+.service_piano-electric {
+  padding: 2% 7%;
+}
+.list_service-piano {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.list_service-piano .contact_service-more {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.contact_service-more .box_service-more {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.box_service-more img {
+  width: 100%;
+}
+.box_service-more a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 30%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  overflow: hidden;
+}
+.box_service-more a:hover {
+  text-decoration: underline;
+}
+/* CSS box-service */
+.list_service-piano .box_service-piano {
+  width: 70%;
+  padding-left: 5%;
+}
+.box_service-piano h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 450;
+  margin-bottom: 10px;
+}
+.box_service-piano p {
+  font-size: 0.9rem;
+  text-transform: none;
+  font-weight: 400;
+  padding: 0;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+.box_service-piano .img_service-piano {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.img_service-piano img {
+  width: 100%;
+}
+.img_service-piano p {
+  font-size: 0.8rem;
+  text-align: center;
+  font-style: italic;
+}
+.box_service-piano h4 {
+  font-weight: 450;
+  margin-bottom: 10px;
+}
+.box_service-piano .img_service-piano1 {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.img_service-piano1 img {
+  width: 100%;
+}
+.img_service-piano1 p {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+}
+/* CSS service_piano */
+.box_service-piano span {
+  font-size: 0.9rem;
+}
+.box_service-piano h5 {
+  font-weight: 450;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.box_service-piano .text-service-list {
+  text-decoration: underline;
+}
+.box_service-piano .service_list {
+  padding-left: 5%;
+  margin-bottom: 10px;
+}
+.service_list li {
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+/* CSS table-guitar */
+.table-form {
+  border: 1px solid #e7e7e7;
+  border-collapse: collapse;
+  width: 80%;
+  margin-bottom: 10px;
+}
+.table-form tr {
+}
+.table-form th {
+  text-align: left;
+  padding: 3%;
+  font-weight: 450;
+}
+.table-form td {
+  text-align: center;
+}
+/* CSS table-drum */
+.table-form1 {
+  border: 1px solid #e7e7e7;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.table-form1 th {
+  font-weight: 450;
+  font-size: 1rem;
+  padding: 2%;
+}
+.table-form1 td {
+  text-align: center;
+  font-size: 0.95rem;
+  padding: 1%;
+}
+/* css table-sound */
+.table-form2 {
+  border: 1px solid #e7e7e7;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.table-form2 td {
+  padding: 2%;
+}
+.box_service-piano a {
+  font-size: 0.9rem;
+  color: #337ab7;
+  text-decoration: none;
+}
+.box_service-piano a:hover {
+  text-decoration: underline;
+}

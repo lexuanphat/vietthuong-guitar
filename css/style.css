@@ -10,6 +10,9 @@
   --grey-color: var(--grey-text-color);
   --footer-backgounrd: var(--footer-color);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;
@@ -67,7 +70,36 @@ a:hover {
 /* CSS header_Text */
 .header_text {
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_text .cart {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  padding: 0 2%;
+}
+.header_text .cart .fa {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.cart span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+
+  border-radius: 50px;
+  padding-left: 4%;
+}
+.cart a p {
+  font-size: 0.7rem;
+  color: #fff;
+  margin: 0;
 }
 .header_text li {
   list-style: none;
@@ -140,19 +172,21 @@ a:hover {
   outline: none;
   padding-left: 5px;
 }
-.button_serch {
-  height: 30px;
-  width: 35px;
+.serch-key {
   background: var(--header-background);
   cursor: pointer;
+  color: yellow;
+
+  font-family: "Roboto", sans-serif;
+  border: none;
+  font-size: 0.8rem;
+  padding: 1%;
+  text-transform: uppercase;
 }
-.button_serch img {
-  height: 100%;
-  width: 100%;
-}
+
 /* CSS Hover Menu */
 .vmenu li a:hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #333;
 }
 /* CSS Sub-menu */
 .sub-menu {
@@ -239,15 +273,15 @@ li:hover > .sub-menu {
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  margin-bottom: 20px;
 }
 /* CSS box-item */
 .list-items .box-item {
   display: flex;
   flex-direction: column;
-  width: 20%;
-  border: 3px solid var(--nav-background);
+  width: 21%;
+  border: 2px solid var(--nav-background);
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .box-item .img-item {
   width: 100%;
@@ -261,10 +295,12 @@ li:hover > .sub-menu {
 .box-text {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
   padding-left: 5px;
 }
 .box-text a {
-  font-size: 1em;
+  font-size: 1rem;
   font-family: "Roboto", sans-serif;
   font-weight: 450;
   text-transform: capitalize;
@@ -317,9 +353,8 @@ li:hover > .sub-menu {
 .list-items-acs .box-item-acs {
   display: flex;
   flex-direction: column;
-  height: 250px;
   width: 17%;
-  border: 2px solid var(--nav-background);
+  border: 1px solid var(--footer-backgounrd);
   margin-bottom: 10px;
 }
 .box-item-acs .img-item-acs {
@@ -335,6 +370,7 @@ li:hover > .sub-menu {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-bottom: 10px;
 }
 .text-item-acs a,
 p {
@@ -412,10 +448,13 @@ p {
 .content-new a {
   font-size: 0.9em;
   font-family: "Roboto", sans-serif;
-  font-weight: 450;
   text-decoration: none;
   color: var(--header-background);
   cursor: pointer;
+}
+.content-new h4 {
+  font-weight: 550;
+  margin-bottom: 5px;
 }
 .content-new small {
   cursor: pointer;

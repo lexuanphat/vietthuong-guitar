@@ -1,0 +1,75 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+}
+.cart-items {
+  padding: 5% 15%;
+}
+.list_cart {
+  display: flex;
+
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+.list_cart .fa {
+  color: blue;
+}
+.product-tilte {
+  width: 35%;
+}
+.price {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+  width: 15%;
+}
+.quantily {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+  width: 15%;
+}
+.total {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+}
+.product-cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.product-cart .product {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #dedede;
+  width: 35%;
+}
+.product span {
+  font-weight: 450;
+}
+.product .fa {
+  color: blue;
+}
+.product img {
+  width: 150px;
+}
+.product-cart .quantily .fa {
+  color: blue;
+  font-size: 1.5rem;
+  padding: 5%;
+  cursor: pointer;
+}
+.basketTotal {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.basketTotal .basketTotalTilte {
+  width: 15%;
+  font-size: 1rem;
+}

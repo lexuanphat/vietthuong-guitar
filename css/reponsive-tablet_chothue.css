@@ -1,0 +1,227 @@
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  /* Start CSS header */
+  .header {
+    padding: 0 3%;
+  }
+  /* End CSS header */
+
+  /* Start CSS nav */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+  }
+  .nav_logo-link {
+    width: 15%;
+  }
+  .nav_menu {
+    justify-content: center;
+    width: 80%;
+  }
+  .nav .nav_menu .vmenu {
+    display: none;
+  }
+  .nav_menu a {
+    font-size: 0.8rem;
+    padding: 0;
+  }
+  .nav_menu .Input_serch {
+    width: 45%;
+    justify-content: flex-end;
+  }
+  .Input_serch input {
+    height: 25px;
+    width: 65%;
+  }
+  .Input_serch input[type="text"] {
+    font-size: 0.7rem;
+    font-style: italic;
+  }
+  .serch-key {
+    font-size: 0.7rem;
+  }
+  /* CSS bars */
+  .nav .nav-bars-moblie {
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin: auto 0;
+  }
+  /* CSS bars-menu */
+  .nav .bars-menu {
+    position: fixed;
+    display: block;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 220px;
+    max-width: 100%;
+    background: var(--header-background);
+    transform: translateX(100%);
+    transition: all linear 0.2s;
+    opacity: 0;
+    z-index: 2;
+  }
+  .bars-menu .bars-text-menu {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    color: var(--nav-background);
+    padding: 10px 10px;
+    border-bottom: 2px solid #fff;
+  }
+
+  .bars-menu .list-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  .list-menu li {
+    display: block;
+    list-style: none;
+    margin-top: 15px;
+  }
+  .list-menu a {
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--nav-background);
+    font-weight: 500;
+  }
+  /* CSS sub-menu */
+  .list-menu .sub-menu-moblie {
+    width: 100%;
+    z-index: 999;
+    position: static;
+    display: none;
+    animation: fadeIn linear 0.3s;
+    transition: all linear 0.3s;
+    opacity: 0;
+  }
+  .sub-menu-moblie li {
+    list-style: none;
+    margin-top: 10px;
+  }
+  .sub-menu-moblie .text-sub-menu {
+    font-size: 0.8rem;
+    font-weight: 450;
+    color: #333;
+    text-transform: uppercase;
+  }
+  .sub-check-menu:checked ~ .sub-menu {
+    display: block;
+  }
+  /* CSS focus sub_menu */
+  .input-check {
+    display: none;
+  }
+  .check-submenu {
+    position: absolute;
+    right: 40%;
+    width: 30px;
+    height: 20px;
+  }
+  .check-submenu img {
+    height: 100%;
+    width: 100%;
+  }
+  [id^="check-sub"]:checked ~ .sub-menu-moblie {
+    display: block;
+    opacity: 1;
+  }
+  /* CSS close-nav */
+  .nav .nav-moblie-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+    color: #fff;
+
+    width: 35px;
+    height: 30px;
+  }
+  .nav-moblie-close img {
+    width: 100%;
+    height: 100%;
+  }
+  /* CSS overplay */
+  .nav-overplay {
+    animation: fadeIn linear 0.2s;
+    display: none;
+  }
+  /* CSS checkbox-bars */
+  .nav_moblie-input {
+    display: none;
+  }
+  .nav_moblie-input:checked ~ .nav-overplay {
+    display: block;
+  }
+  .nav_moblie-input:checked ~ .bars-menu {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  /* End CSS nav */
+
+  /* Start CSS main */
+  .service {
+    padding: 2% 4%;
+  }
+  .list-items-service .box-item-service {
+    width: 48%;
+  }
+  .text-item-service span {
+    font-size: 0.7rem;
+  }
+  /* End CSS new */
+  /* End CSS main */
+
+  /* Start CSS footer */
+  .text-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 20px 0;
+  }
+  .text-contact h3 {
+    font-size: 1.5rem;
+  }
+  .text-contact small {
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+  }
+  .text-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 20px 0;
+  }
+  .text-faq h3 {
+    font-size: 1.5rem;
+  }
+  .text-faq small {
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+  }
+  /* Strrt CSS FAQ */
+  .faq {
+    padding: 3% 5%;
+  }
+  .faq .box-faq {
+    width: 32.3%;
+    align-items: center;
+  }
+  .box-faq h4 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .box-faq .list-faq {
+    align-items: center;
+  }
+  .list-faq li {
+    font-size: 0.8rem;
+  }
+}

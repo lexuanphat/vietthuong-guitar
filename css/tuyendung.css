@@ -1,3 +1,6 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
 .main-recruit {
   padding: 2% 5%;
 }
@@ -22,7 +25,7 @@
   font-size: 1.1rem;
 }
 .text_main-recruit p {
-  font-weight: 400;
+  font-weight: 450;
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(143, 143, 143);
 }

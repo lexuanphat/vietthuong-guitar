@@ -25,21 +25,23 @@ html {
 }
 .img_item-Piano img {
   width: 100%;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #dedede;
 }
 /* CSS text piano */
 .box-item-Piano .text_item-Piano {
   padding-left: 2%;
   width: 100%;
+  padding-bottom: 10px;
 }
 .text_item-Piano a {
   text-decoration: none;
 }
 .text_item-Piano h4 {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 450;
   margin-bottom: 10px;
   color: #333;
+  text-transform: uppercase;
 }
 .text_item-Piano .price {
   display: flex;
@@ -53,6 +55,14 @@ html {
   color: red;
   font-weight: 550;
 }
+.price li del {
+  color: #000;
+}
 .text_item-Piano span {
   font-size: 0.9rem;
+}
+
+/* CSS hover a */
+.text_item-Piano h4:hover {
+  text-decoration: underline;
 }

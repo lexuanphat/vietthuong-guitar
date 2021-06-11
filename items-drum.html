@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/items-drum.css" />
     <link rel="stylesheet" href="./css/reponsive-items-drum.css" />
+    <link rel="stylesheet" href="./css/reponsive-tablet_items-drum.css" />
   </head>
 
   <body>
@@ -45,7 +46,12 @@
             </li>
           </ul>
           <ul class="header_text">
-            <li><a href="">Hệ thống phân phối</a></li>
+            <div class="cart">
+              <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+              <a href="./cart.html"><p>Giỏ hàng</p></a>
+              <span style="color: red">0</span>
+            </div>
+            <li><a href="./distribution-system.html">Hệ thống phân phối</a></li>
           </ul>
         </div>
       </header>
@@ -75,8 +81,8 @@
               <li>
                 <a href="./tintuc.html">Tin tức</a>
                 <ul class="sub-menu">
-                  <li><a href="">Sự kiện</a></li>
-                  <li><a href="">Tư vấn</a></li>
+                  <li><a href="./product-event_sukien.html">Sự kiện</a></li>
+                  <li><a href="./product-event_tuvan.html">Tư vấn</a></li>
                 </ul>
               </li>
               <li><a href="./tuyendung.html">Tuyển dụng</a></li>
@@ -84,9 +90,7 @@
           </div>
           <div class="Input_serch">
             <input type="text" placeholder="Tìm kiếm..." />
-            <div class="button_serch">
-              <img src="./img/serch.png" alt="" />
-            </div>
+            <button class="serch-key" type="button">Search</button>
           </div>
         </div>
 
@@ -109,33 +113,27 @@
             <li>
               <a href="./gioithieu.html">Giới thiệu</a>
             </li>
-
             <li>
               <a href="./index.html">Sản phẩm</a>
               <label for="check-sub" class="check-submenu">
                 <img src="./img/caret-down.png" alt="" />
               </label>
-
               <input
                 type="checkbox"
                 name=""
                 id="check-sub"
                 class="input-check"
               />
-
               <ul class="sub-menu sub-menu-moblie">
                 <li>
                   <a href="./items-piano.html" class="text-sub-menu">Piano</a>
                 </li>
-
                 <li>
                   <a href="./items-guitar.html" class="text-sub-menu">Guitar</a>
                 </li>
-
                 <li>
                   <a href="./items-drum.html" class="text-sub-menu">Trống</a>
                 </li>
-
                 <li>
                   <a href="./items-sound.html" class="text-sub-menu"
                     >Âm thanh</a
@@ -143,34 +141,35 @@
                 </li>
               </ul>
             </li>
-
             <li><a href="./chothue.html">Cho thuê</a></li>
             <li>
               <a href="./tintuc.html">Tin tức</a>
-
               <label for="check-sub1" class="check-submenu">
                 <img src="./img/caret-down.png" alt="" />
               </label>
-
               <input
                 type="checkbox"
                 name=""
                 id="check-sub1"
                 class="input-check"
               />
-
               <ul class="sub-menu sub-menu-moblie">
-                <li><a href="" class="text-sub-menu">Sự kiện</a></li>
-
-                <li><a href="" class="text-sub-menu">Tư vấn</a></li>
+                <li>
+                  <a href="./product-event_sukien.html" class="text-sub-menu"
+                    >Sự kiện</a
+                  >
+                </li>
+                <li>
+                  <a href="./product-event_tuvan.html" class="text-sub-menu"
+                    >Tư vấn</a
+                  >
+                </li>
               </ul>
             </li>
-
             <li><a href="./tuyendung.html">Tuyển dụng</a></li>
           </ul>
         </div>
       </nav>
-
       <!-- Start Slide-show -->
       <div class="slide-show">
         <img src="./img/banner-drum.jpg" alt="" />
@@ -183,146 +182,157 @@
         <div class="list_items-drum">
           <div class="box-item-drum">
             <div class="img_item-drum">
-              <a href=""><img src="./img/item-drum.jpg" alt="" /></a>
+              <a href="./product-item-drum.html"
+                ><img src="./img/img_product-item-drum.jpg" alt=""
+              /></a>
             </div>
             <div class="text_item-drum">
-              <a href=""><h4>PEARL DMP925SP/C</h4></a>
-              <ul class="price">
-                <li>Giá: 17,020,000 VNĐ</li>
-              </ul>
-              <span
-                >Pearl DMP925SP/C bộ trống Jazz hoàn hảo 22 inch bằng gỗ Maple
-                mang đến cảm hứng vô tận cho người chơi với mức giá cực kỳ
-                mềm</span
+              <a href="./product-item-drum.html"
+                ><h4>Combo bộ trống PEARL Export EXX725SP Standard</h4></a
               >
+              <ul class="price">
+                <li>Giá: 27.000.000 VNĐ</li>
+                <li><del>32.820.000 VNĐ</del></li>
+              </ul>
+              <span>Combo bộ trống PEARL Export EXX725SP Standard </span>
             </div>
           </div>
           <div class="box-item-drum">
             <div class="img_item-drum">
-              <a href=""><img src="./img/item-drum.jpg" alt="" /></a>
+              <a href="./product-item-drum1.html"
+                ><img src="./img/img_product-item-drum_2.jpg" alt=""
+              /></a>
             </div>
             <div class="text_item-drum">
-              <a href=""><h4>PEARL DMP925SP/C</h4></a>
-              <ul class="price">
-                <li>Giá: 17,020,000 VNĐ</li>
-              </ul>
-              <span
-                >Pearl DMP925SP/C bộ trống Jazz hoàn hảo 22 inch bằng gỗ Maple
-                mang đến cảm hứng vô tận cho người chơi với mức giá cực kỳ
-                mềm</span
+              <a href="./product-item-drum1.html"
+                ><h4>
+                  Gói Combo 1B bộ trống PEARL Export EXX725SP Standard
+                </h4></a
               >
+              <ul class="price">
+                <li>Giá: 27.170.000 VNĐ</li>
+                <li><del>32.990.000 VNĐ</del></li>
+              </ul>
+              <span>Gói Combo 1B bộ trống PEARL Export EXX725SP Standard</span>
             </div>
           </div>
           <div class="box-item-drum">
             <div class="img_item-drum">
-              <a href=""><img src="./img/item-drum.jpg" alt="" /></a>
+              <a href="./product-item-drum2.html"
+                ><img src="./img/img_product-item-drum_3.jpg" alt=""
+              /></a>
             </div>
             <div class="text_item-drum">
-              <a href=""><h4>PEARL DMP925SP/C</h4></a>
-              <ul class="price">
-                <li>Giá: 17,020,000 VNĐ</li>
-              </ul>
-              <span
-                >Pearl DMP925SP/C bộ trống Jazz hoàn hảo 22 inch bằng gỗ Maple
-                mang đến cảm hứng vô tận cho người chơi với mức giá cực kỳ
-                mềm</span
+              <a href="./product-item-drum2.html"
+                ><h4>Gói Combo 2A bộ trống PEARL EXX 725FP/C</h4></a
               >
+              <ul class="price">
+                <li>Giá: 26.900.000 VNĐ</li>
+                <li><del>32.170.000 VNĐ</del></li>
+              </ul>
+              <span>Gói Combo 2A bộ trống PEARL EXX 725FP/C</span>
             </div>
           </div>
           <div class="box-item-drum">
             <div class="img_item-drum">
-              <a href=""><img src="./img/item-drum.jpg" alt="" /></a>
+              <a href="./product-item-drum3.html"
+                ><img src="./img/img_product-item-drum_4.jpg" alt=""
+              /></a>
             </div>
             <div class="text_item-drum">
-              <a href=""><h4>PEARL DMP925SP/C</h4></a>
-              <ul class="price">
-                <li>Giá: 17,020,000 VNĐ</li>
-              </ul>
-              <span
-                >Pearl DMP925SP/C bộ trống Jazz hoàn hảo 22 inch bằng gỗ Maple
-                mang đến cảm hứng vô tận cho người chơi với mức giá cực kỳ
-                mềm</span
+              <a href="./product-item-drum3.html"
+                ><h4>Gói Combo 2B bộ trống Pearl Export EXX725FP</h4></a
               >
+              <ul class="price">
+                <li>Giá: 27.070.000 VNĐ</li>
+                <li><del>32.880.000 VNĐ</del></li>
+              </ul>
+              <span>Gói Combo 2B bộ trống Pearl Export EXX725FP</span>
             </div>
           </div>
           <div class="box-item-drum">
             <div class="img_item-drum">
-              <a href=""><img src="./img/item-drum.jpg" alt="" /></a>
+              <a href="./product-item-drum4.html"
+                ><img src="./img/img_product-item-drum_5.jpg" alt=""
+              /></a>
             </div>
             <div class="text_item-drum">
-              <a href=""><h4>PEARL DMP925SP/C</h4></a>
-              <ul class="price">
-                <li>Giá: 17,020,000 VNĐ</li>
-              </ul>
-              <span
-                >Pearl DMP925SP/C bộ trống Jazz hoàn hảo 22 inch bằng gỗ Maple
-                mang đến cảm hứng vô tận cho người chơi với mức giá cực kỳ
-                mềm</span
+              <a href="./product-item-drum4.html"
+                ><h4>Gói Combo 3A bộ trống Pearl Export EXX705NP/C760</h4></a
               >
+              <ul class="price">
+                <li>Giá: 26.700.000 VNĐ</li>
+                <li><del>32.460.000 VNĐ</del></li>
+              </ul>
+              <span>Gói Combo 3A bộ trống Pearl Export EXX705NP/C760</span>
             </div>
           </div>
           <div class="box-item-drum">
             <div class="img_item-drum">
-              <a href=""><img src="./img/item-drum.jpg" alt="" /></a>
+              <a href="./product-item-drum5.html"
+                ><img src="./img/img_product-item-drum_6.jpg" alt=""
+              /></a>
             </div>
             <div class="text_item-drum">
-              <a href=""><h4>PEARL DMP925SP/C</h4></a>
-              <ul class="price">
-                <li>Giá: 17,020,000 VNĐ</li>
-              </ul>
-              <span
-                >Pearl DMP925SP/C bộ trống Jazz hoàn hảo 22 inch bằng gỗ Maple
-                mang đến cảm hứng vô tận cho người chơi với mức giá cực kỳ
-                mềm</span
+              <a href="./product-item-drum5.html"
+                ><h4>Gói Combo 3B bộ trống Pearl Export EXX705NP/C760</h4></a
               >
+              <ul class="price">
+                <li>Giá: 26.870.000 VNĐ</li>
+                <li><del>32.630.000 VNĐ</del></li>
+              </ul>
+              <span>Gói Combo 3B bộ trống Pearl Export EXX705NP/C760</span>
             </div>
           </div>
           <div class="box-item-drum">
             <div class="img_item-drum">
-              <a href=""><img src="./img/item-drum.jpg" alt="" /></a>
+              <a href="./product-item-drum6.html"
+                ><img src="./img/img_product-item-drum_7.jpg" alt=""
+              /></a>
             </div>
             <div class="text_item-drum">
-              <a href=""><h4>PEARL DMP925SP/C</h4></a>
-              <ul class="price">
-                <li>Giá: 17,020,000 VNĐ</li>
-              </ul>
-              <span
-                >Pearl DMP925SP/C bộ trống Jazz hoàn hảo 22 inch bằng gỗ Maple
-                mang đến cảm hứng vô tận cho người chơi với mức giá cực kỳ
-                mềm</span
+              <a href="./product-item-drum6.html"
+                ><h4>Gói Combo 1C bộ trống PEARL Export EXX725SP</h4></a
               >
+              <ul class="price">
+                <li>Giá: 22.830.000 VNĐ</li>
+                <li><del>27.500.000 VNĐ</del></li>
+              </ul>
+              <span>Gói Combo 1C bộ trống PEARL Export EXX725SP</span>
             </div>
           </div>
           <div class="box-item-drum">
             <div class="img_item-drum">
-              <a href=""><img src="./img/item-drum.jpg" alt="" /></a>
+              <a href="./product-item-drum7.html"
+                ><img src="./img/img_product-item-drum_8.jpg" alt=""
+              /></a>
             </div>
             <div class="text_item-drum">
-              <a href=""><h4>PEARL DMP925SP/C</h4></a>
-              <ul class="price">
-                <li>Giá: 17,020,000 VNĐ</li>
-              </ul>
-              <span
-                >Pearl DMP925SP/C bộ trống Jazz hoàn hảo 22 inch bằng gỗ Maple
-                mang đến cảm hứng vô tận cho người chơi với mức giá cực kỳ
-                mềm</span
+              <a href="./product-item-drum7.html"
+                ><h4>Gói Combo 1D bộ trống Pearl Export EXX725SP</h4></a
               >
+              <ul class="price">
+                <li>Giá: 23.000.000 VNĐ</li>
+                <li><del>26.670.000 VNĐ</del></li>
+              </ul>
+              <span>Gói Combo 1D bộ trống Pearl Export EXX725SP</span>
             </div>
           </div>
           <div class="box-item-drum">
             <div class="img_item-drum">
-              <a href=""><img src="./img/item-drum.jpg" alt="" /></a>
+              <a href="./product-item-drum8.html"
+                ><img src="./img/img_product-item-drum_9.jpg" alt=""
+              /></a>
             </div>
             <div class="text_item-drum">
-              <a href=""><h4>PEARL DMP925SP/C</h4></a>
-              <ul class="price">
-                <li>Giá: 17,020,000 VNĐ</li>
-              </ul>
-              <span
-                >Pearl DMP925SP/C bộ trống Jazz hoàn hảo 22 inch bằng gỗ Maple
-                mang đến cảm hứng vô tận cho người chơi với mức giá cực kỳ
-                mềm</span
+              <a href="./product-item-drum8.html"
+                ><h4>Gói Combo 2C bộ trống Pearl Export EXX725FP</h4></a
               >
+              <ul class="price">
+                <li>Giá: 22.390.000 VNĐ</li>
+                <li><del>27.390.000 VNĐ</del></li>
+              </ul>
+              <span>Gói Combo 2C bộ trống Pearl Export EXX725FP</span>
             </div>
           </div>
         </div>
@@ -420,5 +430,11 @@
       </footer>
       <!-- End footer -->
     </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/main1.js"></script>
+    <script src="./js/main2.js"></script>
+    <script src="./js/main3.js"></script>
+    <script src="./js/main4.js"></script>
+    <script src="./js/main5.js"></script>
   </body>
 </html>

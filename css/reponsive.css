@@ -1,4 +1,4 @@
-@media screen and (max-width: 739px) {
+@media screen and (max-width: 46.1875em) {
   html,
   body {
     width: auto !important;
@@ -11,19 +11,40 @@
     padding-right: 10px;
   }
   .header .header_box {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
   }
   .header_box .header_icon {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+  }
+  .header ul {
+    width: 30%;
   }
   .header_icon a {
+    font-size: 0.8rem;
+    line-height: 20px;
     margin: 0;
   }
-  .header_box .header_text {
+  .header_text {
+    width: 20%;
+  }
+  .header_text li {
     display: none;
+  }
+  .header_text .cart {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .cart span {
+    position: absolute;
+    top: -9px;
+    right: 53px;
   }
   /* CSS nav */
   .nav {
@@ -46,6 +67,7 @@
     width: 40%;
     display: flex;
     justify-content: center;
+    flex: 1;
   }
   .nav .nav_menu .vmenu {
     display: none;
@@ -58,16 +80,12 @@
     width: 100px;
     height: 25px;
   }
-  .Input_serch .button_serch {
-    height: 25px;
-    width: 35px;
-    background: var(--header-background);
-    cursor: pointer;
-    display: none;
+  .Input_serch input[type="text"] {
+    font-size: 0.7rem;
   }
-  .button_serch img {
-    width: 100%;
-    height: 100%;
+  .serch-key {
+    font-size: 0.7rem;
+    padding: 1.5%;
   }
 
   /* CSS bars */
@@ -212,6 +230,7 @@
     margin: 0;
   }
   .list-items .box-item {
+    justify-content: space-around;
     padding-left: 2px;
     height: 250px;
     width: 40%;

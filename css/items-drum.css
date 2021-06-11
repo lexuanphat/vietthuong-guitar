@@ -29,6 +29,7 @@ html {
 .text_item-drum {
   padding-left: 2%;
   width: 100%;
+  padding-bottom: 10px;
 }
 .text_item-drum a {
   font-size: 1rem;
@@ -36,11 +37,14 @@ html {
   color: #333;
 }
 .text_item-drum h4 {
+  font-weight: 450;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .text_item-drum .price {
   display: flex;
   flex-wrap: wrap;
+  width: 90%;
   justify-content: space-between;
 }
 .price li {
@@ -49,6 +53,9 @@ html {
   font-weight: 550;
   color: red;
   margin-bottom: 5px;
+}
+.price li del {
+  color: #000;
 }
 .text_item-drum span {
   font-size: 0.9rem;
@@ -70,4 +77,9 @@ html {
 }
 .box-note-drum span {
   font-size: 0.9rem;
+}
+
+/* CSS hover a */
+.text_item-drum h4:hover {
+  text-decoration: underline;
 }

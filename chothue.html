@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/chothue.css" />
     <link rel="stylesheet" href="./css/reponsive-service.css" />
+    <link rel="stylesheet" href="./css/reponsive-tablet_chothue.css" />
   </head>
 
   <body>
@@ -45,7 +46,12 @@
             </li>
           </ul>
           <ul class="header_text">
-            <li><a href="">Hệ thống phân phối</a></li>
+            <div class="cart">
+              <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+              <a href="./cart.html"><p>Giỏ hàng</p></a>
+              <span style="color: red">0</span>
+            </div>
+            <li><a href="./distribution-system.html">Hệ thống phân phối</a></li>
           </ul>
         </div>
       </header>
@@ -75,8 +81,8 @@
               <li>
                 <a href="./tintuc.html">Tin tức</a>
                 <ul class="sub-menu">
-                  <li><a href="">Sự kiện</a></li>
-                  <li><a href="">Tư vấn</a></li>
+                  <li><a href="./product-event_sukien.html">Sự kiện</a></li>
+                  <li><a href="./product-event_tuvan.html">Tư vấn</a></li>
                 </ul>
               </li>
               <li><a href="./tuyendung.html">Tuyển dụng</a></li>
@@ -84,9 +90,7 @@
           </div>
           <div class="Input_serch">
             <input type="text" placeholder="Tìm kiếm..." />
-            <div class="button_serch">
-              <img src="./img/serch.png" alt="" />
-            </div>
+            <button class="serch-key" type="button">Search</button>
           </div>
         </div>
 
@@ -160,9 +164,17 @@
               />
 
               <ul class="sub-menu sub-menu-moblie">
-                <li><a href="" class="text-sub-menu">Sự kiện</a></li>
+                <li>
+                  <a href="./product-event_sukien.html" class="text-sub-menu"
+                    >Sự kiện</a
+                  >
+                </li>
 
-                <li><a href="" class="text-sub-menu">Tư vấn</a></li>
+                <li>
+                  <a href="./product-event_tuvan.html" class="text-sub-menu"
+                    >Tư vấn</a
+                  >
+                </li>
               </ul>
             </li>
 
@@ -175,55 +187,66 @@
         <div class="list-items-service">
           <div class="box-item-service">
             <div class="img-item-service">
-              <a href=""><img src="./img/chothue.jpg" alt="" /></a>
+              <a href="./service_piano-electric.html"
+                ><img src="./img/chothue.jpg" alt=""
+              /></a>
             </div>
             <div class="text-item-service">
-              <a href=""
+              <a href="./service_piano-electric.html"
                 ><span>Dịch vụ cho thuê đàn Piano điện tập tại nhà</span></a
               >
             </div>
           </div>
           <div class="box-item-service">
             <div class="img-item-service">
-              <a href=""><img src="./img/chothue1.jpg" alt="" /></a>
+              <a href="./service_piano.html"
+                ><img src="./img/chothue1.jpg" alt=""
+              /></a>
             </div>
             <div class="text-item-service">
-              <a href=""><span>cho thuê đàn Piano điện </span></a>
+              <a href="service_piano.html"><span>cho thuê đàn Piano</span></a>
             </div>
           </div>
           <div class="box-item-service">
             <div class="img-item-service">
-              <a href=""><img src="./img/chothue2.jpg" alt="" /></a>
+              <a href="./service_organ.html"
+                ><img src="./img/chothue2.jpg" alt=""
+              /></a>
             </div>
             <div class="text-item-service">
-              <a href=""><span>cho thuê đàn Organ</span></a>
+              <a href="service_organ.html"><span>cho thuê đàn Organ</span></a>
             </div>
+          </div>
+        <div class="box-item-service">
+          <div class="img-item-service">
+            <a href="./service_guitar.html"
+              ><img src="./img/chothue3.jpg" alt=""
+            /></a>
+          </div>
+          <div class="text-item-service">
+            <a href="service_guitar.html"><span>cho thuê đàn Guitar</span></a>
           </div>
         </div>
-        <div class="list-items-service">
-          <div class="box-item-service">
-            <div class="img-item-service">
-              <a href=""><img src="./img/chothue3.jpg" alt="" /></a>
-            </div>
-            <div class="text-item-service">
-              <a href=""><span>cho thuê đàn Guitar</span></a>
-            </div>
+        <div class="box-item-service">
+          <div class="img-item-service">
+            <a href="./service_drum.html"
+              ><img src="./img/chothue4.jpg" alt=""
+            /></a>
           </div>
-          <div class="box-item-service">
-            <div class="img-item-service">
-              <a href=""><img src="./img/chothue4.jpg" alt="" /></a>
-            </div>
-            <div class="text-item-service">
-              <a href=""><span>cho thuê Trống</span></a>
-            </div>
+          <div class="text-item-service">
+            <a href="service_drum.html"><span>cho thuê Trống</span></a>
           </div>
-          <div class="box-item-service">
-            <div class="img-item-service">
-              <a href=""><img src="./img/chothue5.jpg" alt="" /></a>
-            </div>
-            <div class="text-item-service">
-              <a href=""><span>cho thuê Âm thanh & Ánh sáng</span></a>
-            </div>
+        </div>
+        <div class="box-item-service">
+          <div class="img-item-service">
+            <a href="./service_sound.html"
+              ><img src="./img/chothue5.jpg" alt=""
+            /></a>
+          </div>
+          <div class="text-item-service">
+            <a href="/service_sound.html"
+              ><span>cho thuê Âm thanh & Ánh sáng</span></a
+            >
           </div>
         </div>
       </main>
@@ -301,5 +324,11 @@
       </footer>
       <!-- End footer -->
     </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/main1.js"></script>
+    <script src="./js/main2.js"></script>
+    <script src="./js/main3.js"></script>
+    <script src="./js/main4.js"></script>
+    <script src="./js/main5.js"></script>
   </body>
 </html>

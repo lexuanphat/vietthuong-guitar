@@ -1,0 +1,334 @@
+@media screen and (max-width: 46.1875em) {
+  html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  .header {
+    height: 38px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .header .header_box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .header_box .header_icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 70%;
+  }
+  .header ul {
+    width: 30%;
+  }
+  .header_icon a {
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 20px;
+  }
+  .header_text {
+    width: 20%;
+  }
+  .header_text li {
+    display: none;
+  }
+  .header_text .cart {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .cart span {
+    position: absolute;
+    top: -9px;
+    right: 53px;
+  }
+  /* CSS nav */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav .nav_logo-link {
+    padding: 5px 0;
+    width: 20%;
+  }
+  .nav_logo-link img {
+    height: 30px;
+    width: 100%;
+  }
+  .nav .nav_menu {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+  .nav .nav_menu .vmenu {
+    display: none;
+  }
+  .nav_menu .Input_serch {
+    display: flex;
+    width: 40%;
+  }
+  .Input_serch input {
+    width: 100px;
+    height: 25px;
+  }
+  .Input_serch input[type="text"] {
+    font-size: 0.7rem;
+  }
+  .serch-key {
+    font-size: 0.7rem;
+    padding: 1.5%;
+  }
+
+  /* CSS bars */
+  .nav .nav-bars-moblie {
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin: auto 0;
+  }
+  /* CSS bars-menu */
+  .nav .bars-menu {
+    position: fixed;
+    display: block;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 220px;
+    max-width: 100%;
+    background: var(--header-background);
+    transform: translateX(100%);
+    transition: all linear 0.2s;
+    opacity: 0;
+    z-index: 2;
+  }
+  .bars-menu .bars-text-menu {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    color: var(--nav-background);
+    padding: 10px 10px;
+    border-bottom: 2px solid #fff;
+  }
+
+  .bars-menu .list-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  .list-menu li {
+    display: block;
+    list-style: none;
+    margin-top: 15px;
+  }
+  .list-menu a {
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--nav-background);
+    font-weight: 500;
+  }
+  /* CSS sub-menu */
+  .list-menu .sub-menu-moblie {
+    width: 100%;
+    z-index: 999;
+    position: static;
+    display: none;
+    animation: fadeIn linear 0.3s;
+    transition: all linear 0.3s;
+    opacity: 0;
+  }
+  .sub-menu-moblie li {
+    list-style: none;
+    margin-top: 10px;
+  }
+  .sub-menu-moblie .text-sub-menu {
+    font-size: 0.8rem;
+    font-weight: 450;
+    color: #333;
+    text-transform: uppercase;
+  }
+  .sub-check-menu:checked ~ .sub-menu {
+    display: block;
+  }
+  /* CSS focus sub_menu */
+  .input-check {
+    display: none;
+  }
+  .check-submenu {
+    position: absolute;
+    right: 40%;
+    width: 30px;
+    height: 20px;
+  }
+  .check-submenu img {
+    height: 100%;
+    width: 100%;
+  }
+  [id^="check-sub"]:checked ~ .sub-menu-moblie {
+    display: block;
+    opacity: 1;
+  }
+  /* CSS close-nav */
+  .nav .nav-moblie-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+    color: #fff;
+
+    width: 35px;
+    height: 30px;
+  }
+  .nav-moblie-close img {
+    width: 100%;
+    height: 100%;
+  }
+  /* CSS overplay */
+  .nav-overplay {
+    animation: fadeIn linear 0.2s;
+    display: none;
+  }
+  /* CSS checkbox-bars */
+  .nav_moblie-input {
+    display: none;
+  }
+  .nav_moblie-input:checked ~ .nav-overplay {
+    display: block;
+  }
+  .nav_moblie-input:checked ~ .bars-menu {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  /* CSS main */
+  .product-item-drum {
+    padding: 1% 2%;
+  }
+  .list_product-item-drum {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .list_product-item-drum .img_product-item-drum {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .list_product-item-drum .text_product-item-drum {
+    width: 100%;
+  }
+  .text_product-item-drum h3 {
+    font-size: 1rem;
+    line-height: 23px;
+  }
+  .text_product-item-drum .guarantee {
+    display: none;
+  }
+  .text_product-item-drum .star {
+    margin: 5px 0;
+  }
+  .amount span {
+    font-size: 0.8rem;
+  }
+  .amount input {
+    height: 25px;
+  }
+  .amount input[type="number"] {
+    font-size: 0.8rem;
+  }
+  .text_product-item-drum .gift {
+    padding: 0 1%;
+  }
+  .text_product-item-drum li {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    line-height: 23px;
+  }
+  .text_product-item-drum button {
+    margin-top: 20px;
+  }
+  /* End CSS main */
+  /* CSS footer */
+  .footer {
+    display: flex;
+    width: 100%;
+  }
+  .footer .contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact .text-contact {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .text-contact h3 {
+    font-size: 1.3rem;
+  }
+  .text-contact small {
+    font-size: 0.8rem;
+  }
+  .button-contact button {
+    width: 150px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  /* CSS text-FAQ */
+  .text-faq {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .text-faq h3 {
+    font-size: 1.3rem;
+  }
+  .input-faq input {
+    height: 30px;
+    width: 200px;
+  }
+  .checkbox {
+    display: none;
+  }
+  /* CSS footer-faq */
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .faq .box-faq {
+    text-align: center;
+    display: flex;
+    width: 100%;
+  }
+  .box-faq h4 {
+    font-size: 1rem;
+  }
+  .list-faq a {
+    font-size: 0.8rem;
+  }
+  .box-faq .list-faq {
+    display: flex;
+  }
+}
+/* Tạo keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

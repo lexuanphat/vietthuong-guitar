@@ -1,0 +1,135 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+.product-items {
+  padding: 3% 10%;
+}
+.product-items .list_product-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.list_product-items .img_product-items {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.img_product-items img {
+  width: 100%;
+}
+.text_product-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+.text_product-items h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.text_product-items span {
+  font-size: 0.9rem;
+}
+.text_product-items .star {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.text_product-items .star small {
+  color: #000;
+  font-weight: 400;
+}
+.star .fa:hover {
+  color: yellow;
+}
+.amount {
+}
+.amount span {
+  font-size: 1rem;
+}
+.amount input {
+  width: 100px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.amount input[type="number"] {
+  text-align: center;
+}
+.text_product-items li {
+  list-style: none;
+  font-size: 1.1rem;
+  color: red;
+  font-weight: 450;
+}
+.text_product-items small {
+  color: red;
+  font-weight: 500;
+}
+.text_product-items .fa {
+  color: rgb(201, 201, 201);
+}
+.text_product-items .gift {
+  padding-left: 5%;
+}
+.gift li,
+span {
+  list-style: none;
+  margin: 0;
+  color: #000;
+  font-weight: 400;
+  margin-top: 2px;
+}
+.gift .fa {
+  font-size: 0.8rem;
+  color: #288ad6;
+}
+.gift span {
+  font-size: 0.8rem;
+}
+.text_product-items .guarantee {
+  border: 1px solid #dedede;
+  width: 100%;
+  margin-left: 20px;
+  padding: 2% 5%;
+}
+.guarantee li {
+  color: #333;
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 550;
+  margin-bottom: 5px;
+}
+.guarantee .fa {
+  color: #fd6e1d;
+  margin-right: 5px;
+}
+.text_product-items button {
+  width: 100%;
+  color: #fff;
+  background: #288ad6;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 2%;
+  cursor: pointer;
+}
+button p {
+  font-size: 0.7rem;
+  text-transform: none;
+  color: #fff;
+  font-weight: 500;
+}
+.list_img-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.list_img-item img {
+  width: 20%;
+}

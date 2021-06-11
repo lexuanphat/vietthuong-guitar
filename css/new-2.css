@@ -1,0 +1,25 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+.new-2 {
+  padding: 3% 5%;
+}
+.new-2 .text_new {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+}
+.text_new h3,
+h4 {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 450;
+  margin-bottom: 10px;
+}
+.text_new h4 {
+  font-size: 0.9rem;
+}
+.text_new span {
+  margin-bottom: 10px;
+}

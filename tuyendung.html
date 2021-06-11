@@ -7,7 +7,7 @@
     <title>
       Kinh nghiệm hay, tư vấn chọn đàn, mua đàn tại Việt Thương Music
     </title>
-    <link rel="shortcut icon" href="../img/logotiltle.jpg" />
+    <link rel="shortcut icon" href="./img/logotiltle.jpg" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/tuyendung.css" />
     <link rel="stylesheet" href="./css/reponsive-recruit.css" />
+    <link rel="stylesheet" href="./css/reponsive-tablet_tuyendung.css" />
   </head>
 
   <body>
@@ -45,7 +46,12 @@
             </li>
           </ul>
           <ul class="header_text">
-            <li><a href="">Hệ thống phân phối</a></li>
+            <div class="cart">
+              <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+              <a href="./cart.html"><p>Giỏ hàng</p></a>
+              <span style="color: red">0</span>
+            </div>
+            <li><a href="./distribution-system.html">Hệ thống phân phối</a></li>
           </ul>
         </div>
       </header>
@@ -74,8 +80,8 @@
               <li>
                 <a href="./tintuc.html">Tin tức</a>
                 <ul class="sub-menu">
-                  <li><a href="">Sự kiện</a></li>
-                  <li><a href="">Tư vấn</a></li>
+                  <li><a href="./product-event_sukien.html">Sự kiện</a></li>
+                  <li><a href="./product-event_tuvan.html">Tư vấn</a></li>
                 </ul>
               </li>
               <li><a href="./tuyendung.html">Tuyển dụng</a></li>
@@ -83,9 +89,7 @@
           </div>
           <div class="Input_serch">
             <input type="text" placeholder="Tìm kiếm..." />
-            <div class="button_serch">
-              <img src="./img/serch.png" alt="" />
-            </div>
+            <button class="serch-key" type="button">Search</button>
           </div>
         </div>
         <label for="nav-input" class="nav-bars-moblie">
@@ -143,8 +147,16 @@
                 class="input-check"
               />
               <ul class="sub-menu sub-menu-moblie">
-                <li><a href="" class="text-sub-menu">Sự kiện</a></li>
-                <li><a href="" class="text-sub-menu">Tư vấn</a></li>
+                <li>
+                  <a href="./product-event_sukien.html" class="text-sub-menu"
+                    >Sự kiện</a
+                  >
+                </li>
+                <li>
+                  <a href="./product-event_tuvan.html" class="text-sub-menu"
+                    >Tư vấn</a
+                  >
+                </li>
               </ul>
             </li>
             <li><a href="./tuyendung.html">Tuyển dụng</a></li>
@@ -285,5 +297,11 @@
       </footer>
       <!-- End footer -->
     </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/main1.js"></script>
+    <script src="./js/main2.js"></script>
+    <script src="./js/main3.js"></script>
+    <script src="./js/main4.js"></script>
+    <script src="./js/main5.js"></script>
   </body>
 </html>
