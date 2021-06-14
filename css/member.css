@@ -1,0 +1,168 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #fdc830, #ff9e6d);
+}
+.container {
+}
+.form_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 450px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+.form_input img {
+  padding-top: 5px;
+  width: 100%;
+}
+.form_input .content {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dedede;
+  width: 100%;
+}
+.button-login_button-reg {
+  display: flex;
+  margin: 20px 0;
+  box-shadow: 0 0 15px 1px #d9920d;
+  border-radius: 15px;
+  position: relative;
+}
+
+.button-login_button-reg .login {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  font-size: 1rem;
+  font-weight: 600;
+}
+#btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 120px;
+  background: rgb(255, 234, 112);
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.form_input .input-email {
+  position: relative;
+}
+.form_input input {
+  height: 30px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  outline: none;
+}
+.form_input label {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  bottom: 0;
+  transition: 0.3s;
+  font-size: 0.9rem;
+}
+.form_input .button {
+  display: block;
+  height: 30px;
+  width: 75px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 3%;
+  margin-left: auto;
+  transition: 0.4s;
+  margin-top: 15px;
+}
+.form_input .button:hover {
+  background: #dbe91b;
+}
+
+.input_form:focus ~ label {
+  top: -8px;
+  font-size: 0.7rem;
+  color: #000;
+  font-weight: 500;
+  z-index: 2;
+}
+.input_form:focus {
+  border: 1px solid #dedede;
+}
+.input_form:not(:placeholder-shown).input_form:not(:focus) + label {
+  top: -8px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  z-index: 2;
+}
+.input_form:not(:placeholder-shown).input_form:not(:focus) + .label {
+  top: -8px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  z-index: 2;
+}
+.form_input .check-box {
+  height: 10px;
+  width: 10px;
+  margin: 0;
+  padding: 0;
+  margin-right: 5px;
+}
+span {
+  font-size: 0.8rem;
+}
+#login {
+  display: block;
+  transition: all 0.5s;
+}
+#reg {
+  position: relative;
+  top: 0;
+  left: 10px;
+  display: none;
+  transition: all 0.5s;
+}
+
+.icon-fb {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.icon-fb a {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+.icon-fb .fa-facebook-f:hover {
+  color: #4267b2;
+}
+.icon-fb .fa-instagram:hover {
+  color: #bc1888;
+}
+.icon-fb .fa-twitter:hover {
+  color: #1da1f2;
+}
+.icon-fb .fa-google:hover {
+  color: #ea4335;
+}

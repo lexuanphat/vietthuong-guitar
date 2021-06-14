@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Member - VietthuongMucsic</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/member.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="form_input">
+        <a href="./index.html"><img src="./img/logo1.png" alt="" /></a>
+        <span class="content">Member</span>
+        <div class="button-login_button-reg">
+          <div id="btn"></div>
+          <button onclick="log()" type="button" class="login">Login</button>
+          <button onclick="reg()" type="button" class="login">Regsign</button>
+        </div>
+        <div class="form-login" id="login">
+          <div class="input-email">
+            <input
+              type="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              class="input_form"
+              placeholder=" "
+              required
+            />
+            <label for="" class="label">Email</label>
+          </div>
+          <div class="input-email">
+            <input
+              type="password"
+              required
+              class="input_form"
+              placeholder=" "
+            />
+            <label for="" class="label">Password</label>
+          </div>
+          <input type="checkbox" class="check-box" /><span>Remember me?</span>
+          <input type="submit" class="button" value="Sign In" />
+        </div>
+        <div class="form-login" id="reg">
+          <div class="input-email">
+            <input type="text" required class="input_form" placeholder=" " />
+            <label for="" class="label">Name</label>
+          </div>
+          <div class="input-email">
+            <input
+              type="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              class="input_form"
+              required
+              placeholder=" "
+            />
+            <label for="" class="label">Email</label>
+          </div>
+          <div class="input-email">
+            <input
+              type="password"
+              required
+              class="input_form"
+              placeholder=" "
+            />
+            <label for="" class="label">Password</label>
+          </div>
+          <div class="input-email">
+            <input
+              type="password"
+              required
+              class="input_form"
+              placeholder=" "
+            />
+            <label for="" class="label">Confirm password</label>
+          </div>
+          <input type="checkbox" required class="check-box" /><span
+            >I argee to the terms & conditions
+          </span>
+          <input type="submit" class="button" value="Sign Up" />
+        </div>
+      </form>
+      <div class="icon-fb">
+        <a href="https://www.facebook.com/"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://www.instagram.com/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/login"><i class="fab fa-twitter"></i></a>
+        <a href="https://accounts.google.com/"><i class="fab fa-google"></i></a>
+      </div>
+    </div>
+
+    <script>
+      var login = document.getElementById("login");
+      var register = document.getElementById("reg");
+      var btn = document.getElementById("btn");
+
+      function reg() {
+        login.style.display = "none";
+        register.style.display = "block";
+        btn.style.left = "106px";
+      }
+      function log() {
+        login.style.display = "block";
+        register.style.display = "none";
+        btn.style.left = "0";
+      }
+    </script>
+  </body>
+</html>

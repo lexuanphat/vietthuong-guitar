@@ -1,9 +1,4 @@
 @media screen and (max-width: 46.1875em) {
-  html,
-  body {
-    width: auto !important;
-    overflow-x: hidden !important;
-  }
   .header {
     width: 100%;
     padding-left: 10px;
@@ -44,6 +39,9 @@
     position: absolute;
     top: -9px;
     right: 53px;
+  }
+  .member {
+    display: none;
   }
   /* CSS nav */
   .nav {
@@ -211,6 +209,9 @@
     transform: translateX(0%);
     opacity: 1;
   }
+  /* CSS slide-show */
+
+  /* End css slideshow */
   /* CSS main */
   .main {
     width: 100%;

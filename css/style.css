@@ -1,3 +1,4 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 :root {
   --black-color: #231f20;
   --grey-text-color: #bdbdbd;
@@ -10,6 +11,7 @@
   --grey-color: var(--grey-text-color);
   --footer-backgounrd: var(--footer-color);
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -113,6 +115,11 @@ a:hover {
 /* CSS hover  */
 .header_text a:hover {
   text-decoration: underline;
+}
+/* CSS member */
+.fas {
+  color: #fff;
+  margin-right: 2px;
 }
 /* CSS Nav */
 .nav {

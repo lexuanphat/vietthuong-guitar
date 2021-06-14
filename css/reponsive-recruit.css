@@ -1,9 +1,4 @@
 @media screen and (max-width: 46.1875em) {
-  html,
-  body {
-    width: auto !important;
-    overflow-x: hidden !important;
-  }
   .header {
     width: 100%;
     padding-left: 10px;
