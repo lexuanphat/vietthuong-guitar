@@ -169,6 +169,20 @@
 
   /* End CSS slide-show */
   /* Start CSS main */
+  /* Start css icon-main */
+  .box_icon-items {
+    width: 49%;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+  }
+  .caption h3 {
+    text-align: justify;
+    font-size: 1.1rem;
+  }
+  .box_icon-items .fa {
+    font-size: 2.8rem;
+  }
+  /* end css icon-main */
   .text-item .text {
     height: 45px;
   }

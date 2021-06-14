@@ -252,6 +252,65 @@ li:hover > .sub-menu {
 .main {
   width: 100%;
 }
+.list_icon-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2% 3%;
+}
+.box_icon-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 23%;
+  background: #333;
+  padding: 15px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.box_icon-items .fa {
+  font-size: 3rem;
+  color: #fff;
+  transform: rotate(336deg);
+}
+.box_icon-items .caption {
+  width: 70%;
+}
+.caption a {
+  text-decoration: none;
+}
+.caption h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+}
+.caption p {
+  color: #fff;
+  text-transform: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+/* CSS hover */
+.box_icon-items:hover {
+  background: var(--nav-background);
+}
+.box_icon-items:hover .fa {
+  color: #333;
+}
+.box_icon-items:hover h3 {
+  color: #333;
+}
+.box_icon-items:hover p {
+  color: #333;
+}
 /* CSS Text-item */
 .text-item {
   width: 100%;

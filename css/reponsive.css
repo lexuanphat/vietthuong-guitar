@@ -216,6 +216,20 @@
   .main {
     width: 100%;
   }
+  /* Start CSS-icon-main */
+  .box_icon-items {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+  }
+  .caption h3 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .box_icon-items .fa {
+    font-size: 2.5rem;
+  }
+  /* End css icon-main */
   .main .text-item {
   }
   .text-item .text {
