@@ -17,6 +17,7 @@ html {
 }
 .img_product-items img {
   width: 100%;
+  transition: 0.5s;
 }
 .text_product-items {
   display: flex;
