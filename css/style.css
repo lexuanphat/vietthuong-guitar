@@ -675,3 +675,14 @@ p {
 .list-faq a:hover {
   color: var(--nav-background);
 }
+
+/* CSS more */
+.tawk-text-truncate {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+}
+.tawk-text-truncate:hover {
+  background: #333;
+  color: #fd0;
+}
