@@ -179,7 +179,17 @@
 
       <!-- Start Slide-show -->
       <div class="slide-show">
+        <!-- <div class="next_or_back">
+          <i onclick="backr()" class="fas fa-angle-left"></i>
+          <i onclick="next()" class="fas fa-angle-right"></i>
+        </div> -->
+        <!-- <div class="list_slide"> -->
         <img src="./img/nhac-cu-gia-tot-viet-thuong-music.jpg" alt="" />
+        <!-- <img src="./img/banner (1).jpg" alt="" />
+          <img src="./img/banner (2).jpg" alt="" />
+          <img src="./img/banner (3).jpg" alt="" />
+          <img src="./img/banner (4).jpg" alt="" />
+        </div> -->
       </div>
       <!-- End Slide-show -->
 
@@ -719,5 +729,32 @@
       })();
     </script>
     <!--End of Tawk.to Script-->
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "101708165309766");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v11.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
   </body>
 </html>
