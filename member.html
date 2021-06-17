@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Member - VietthuongMucsic</title>
+    <link rel="shortcut icon" href="./img/logotiltle.jpg" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -32,7 +34,8 @@
           <div class="input-email">
             <input
               type="email"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              pattern="[a-z0-9]+@[a-z0-9]+\.[a-z]{2,3}$"
+              title="You have entered the wrong email format"
               class="input_form"
               placeholder=" "
               required
@@ -43,6 +46,8 @@
             <input
               type="password"
               required
+              pattern="[a-zA-Z\d\.]{6,}"
+              title="Your password must enter 6 characters"
               class="input_form"
               placeholder=" "
             />
@@ -53,13 +58,21 @@
         </div>
         <div class="form-login" id="reg">
           <div class="input-email">
-            <input type="text" required class="input_form" placeholder=" " />
+            <input
+              type="text"
+              required
+              pattern="[a-zA-Z\d\.]{6,}"
+              title="Your name must enter 6 characters"
+              class="input_form"
+              placeholder=" "
+            />
             <label for="" class="label">Name</label>
           </div>
           <div class="input-email">
             <input
               type="email"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              pattern="[a-z0-9]+@[a-z0-9]+\.[a-z]{2,3}$"
+              title="You have entered the wrong email format"
               class="input_form"
               required
               placeholder=" "
@@ -70,6 +83,8 @@
             <input
               type="password"
               required
+              pattern="[a-zA-Z\d\.]{6,}"
+              title="Your password must enter 6 characters"
               class="input_form"
               placeholder=" "
             />
@@ -79,14 +94,19 @@
             <input
               type="password"
               required
+              pattern="[a-zA-Z\d\.]{6,}"
+              title="Your password must enter 6 characters"
               class="input_form"
               placeholder=" "
             />
             <label for="" class="label">Confirm password</label>
           </div>
-          <input type="checkbox" required class="check-box" /><span
-            >I argee to the terms & conditions
-          </span>
+          <input
+            type="checkbox"
+            required
+            title="Please accept our rules"
+            class="check-box"
+          /><span>I argee to the terms & conditions </span>
           <input type="submit" class="button" value="Sign Up" />
         </div>
       </form>

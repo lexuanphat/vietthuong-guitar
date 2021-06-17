@@ -92,9 +92,12 @@ body {
   margin-left: auto;
   transition: 0.4s;
   margin-top: 15px;
+  border-radius: 50px;
+  background: rgb(255, 234, 112);
 }
 .form_input .button:hover {
-  background: #dbe91b;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
 }
 
 .input_form:focus ~ label {
