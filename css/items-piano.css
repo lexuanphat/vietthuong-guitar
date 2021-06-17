@@ -1,6 +1,12 @@
 html {
   font-family: "Roboto", sans-serif;
 }
+.slide-show {
+  width: 100%;
+}
+.slide-show img {
+  width: 100%;
+}
 .items-Piano {
   display: flex;
   flex-direction: column;

@@ -210,7 +210,14 @@
     opacity: 1;
   }
   /* CSS slide-show */
-
+  .navigation {
+    left: 70%;
+  }
+  .navigation .bar {
+    width: 5%;
+    height: 10px;
+    border: 1px solid #fff;
+  }
   /* End css slideshow */
   /* CSS main */
   .main {

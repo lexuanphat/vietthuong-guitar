@@ -219,11 +219,65 @@ li:hover > .sub-menu {
   top: 100%;
 }
 /* CSS Slide-show */
+.list-slide {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
 .slide-show {
+  display: flex;
+  width: 500%;
+}
+.slide-show .slide {
+  width: 20%;
+  transition: 0.5s;
+}
+.slide img {
   width: 100%;
 }
-.slide-show img {
-  width: 100%;
+input[name="r1"] {
+  visibility: hidden;
+  position: absolute;
+}
+.input-radio .r1 {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.navigation {
+  position: absolute;
+  bottom: 5%;
+  left: 90%;
+  display: flex;
+  width: 60%;
+}
+.navigation .bar {
+  width: 2%;
+  height: 17px;
+  border: 3px solid gold;
+  background: #333;
+  z-index: 11;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.5s;
+  border-radius: 50px;
+}
+.bar:hover {
+  background: #fff;
+}
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+#r2:checked ~ .s1 {
+  margin-left: -20%;
+}
+#r3:checked ~ .s1 {
+  margin-left: -40%;
+}
+#r4:checked ~ .s1 {
+  margin-left: -60%;
+}
+#r5:checked ~ .s1 {
+  margin-left: -80%;
 }
 /* CSS reponsive overplay */
 .nav .nav-overplay {

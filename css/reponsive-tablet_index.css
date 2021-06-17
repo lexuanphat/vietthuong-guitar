@@ -166,7 +166,14 @@
   }
   /* End CSS nav */
   /* Start CSS slide-show */
-
+  .navigation {
+    left: 75%;
+  }
+  .navigation .bar {
+    width: 5%;
+    height: 10px;
+    border: 1px solid #fff;
+  }
   /* End CSS slide-show */
   /* Start CSS main */
   /* Start css icon-main */
